@@ -4,8 +4,13 @@ import styled from 'styled-components';
 export default function projectCard(props) {
   const { hrefLink, imgSrc, imgAlt, projectName } = props.project;
   return (
-    <styledCard>
-      <a className="project-tile" href={hrefLink} target="_blank">
+    <StyledCard>
+      <a
+        className="project-tile"
+        href={hrefLink}
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="project-img" src={imgSrc} alt={imgAlt} />
         <p class="project-title">
           <span className="code">&lt;</span>
@@ -14,12 +19,16 @@ export default function projectCard(props) {
         </p>
         {/*maybe change this p tag to a div tag if I have issues with the projectName */}
       </a>
-    </styledCard>
+    </StyledCard>
   );
 }
 
-const styledCard = styled.div`
-  .project-tile {
+const StyledCard = styled.div`
+  /* why does this stylized component not work here but does work on the App.js file? */
+
+  display: flex;
+  background: white;
+  /* .project-tile {
     display: flex;
     width: 20%;
     box-shadow: 1px 1px darkslategray;
@@ -57,5 +66,5 @@ const styledCard = styled.div`
 
   .project-tile:hover .code {
     color: black;
-  }
+  } */
 `;
