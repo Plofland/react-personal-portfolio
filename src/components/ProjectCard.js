@@ -17,25 +17,31 @@ export default function projectCard(props) {
           {projectName}
           <span className="code">&#47;&gt;</span>
         </p>
-        {/*maybe change this p tag to a div tag if I have issues with the projectName */}
       </a>
     </StyledCard>
   );
 }
 
 const StyledCard = styled.div`
-  /* why does this stylized component not work here but does work on the App.js file? */
-
+  border: 1px solid white;
   display: flex;
-  background: white;
-  /* .project-tile {
+  flex-direction: column;
+  width: 25%;
+  /* background: white; */
+
+  .project-tile {
     display: flex;
-    width: 20%;
+    flex-direction: column;
+    width: 100%;
     box-shadow: 1px 1px darkslategray;
     border-radius: 0 0 5px 5px;
+    text-decoration: none;
+    border: 1px solid yellow;
   }
 
   .project-img {
+    /* display: flex;
+    flex-direction: column; */
     width: 100%;
     opacity: 0.25s ease-in-out;
   }
@@ -45,26 +51,30 @@ const StyledCard = styled.div`
   }
 
   .project-title {
-    display: flex;
+    /* display: flex; */
+    border: 1px solid white;
+    /* color: black; */
     color: black;
     background-color: #ad9158;
     width: 100%;
-    padding: 3% 3%;
+    /* height: 3rem; */
+    /* padding: 3% 3%; */
     border-radius: 0 0 5px 5px;
-    justify-content: center;
+
+    /* justify-content: center; */
   }
 
   .code {
     color: #ad9158;
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
 
   .project-title,
   .code {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .project-tile:hover .code {
     color: black;
-  } */
+  }
 `;

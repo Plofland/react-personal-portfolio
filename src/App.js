@@ -1,27 +1,25 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import { Route } from 'react-router-dom';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import projectsList from './projectsList';
+// import background from './assets/whatTheHexDark';
 
 //playing around with declared props vs. stylized components
-const theme = {
-  font: 'Times New Roman'
-};
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <>
+      <AppGlobal />
+
       <Wrapper>
-        <Header />
+        {/* <Header /> */}
         <Nav />
         <Route path="/projects">
-          <Projects props={projectsList} />
+          <Projects />
         </Route>
         <Route path="/aboutMe">
           <AboutMe />
@@ -29,58 +27,149 @@ function App() {
         <Route exact path="/">
           <Welcome />
           <AboutMe />
-          <Projects props={projectsList} />
+          <Projects />
         </Route>
       </Wrapper>
-    </ThemeProvider>
+    </>
   );
 }
 
 export default App;
 
+const AppGlobal = createGlobalStyle`
+  * {
+    /* background-image: url('./assets/whatTheHexDark.png'); */
+    /* background-color: red; */
+  } 
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+`;
+
 const Wrapper = styled.div`
   /* background-color: rgba(128, 128, 0, 0.6); */
   font-family: 'Fira Sans', sans-serif;
   font-size: 2rem;
-  color: whitesmoke;
-
-  .project-tile {
-    display: flex;
-    width: 20%;
-    box-shadow: 1px 1px darkslategray;
-    border-radius: 0 0 5px 5px;
-  }
-
-  .project-img {
-    width: 100%;
-    opacity: 0.25s ease-in-out;
-  }
-
-  .project-img:hover {
-    opacity: 100%;
-  }
-
-  .project-title {
-    display: flex;
-    color: black;
-    background-color: #ad9158;
-    width: 100%;
-    padding: 3% 3%;
-    border-radius: 0 0 5px 5px;
-    justify-content: center;
-  }
-
-  .code {
-    color: #ad9158;
-    transition: 0.5s ease-in-out;
-  }
-
-  .project-title,
-  .code {
-    font-size: 1.6rem;
-  }
-
-  .project-tile:hover .code {
-    color: black;
-  }
+  /* color: whitesmoke; */
 `;

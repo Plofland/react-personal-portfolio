@@ -6,9 +6,7 @@
 
 ---Welcome---
 
-[] Get welcome neon sign working
-[] If I can't get the neon sign working, maybe use a fractal welcome (https://codepen.io/ARS/pen/pjypwd)
-[] Once working, test neon sign with a background that isn't completely black
+[] Use anime.js to get my name as a line drawing as a hero header
 
 ---Projects Section---
 

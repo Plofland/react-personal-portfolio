@@ -3,16 +3,23 @@ import styled from 'styled-components';
 import projectsList from '../projectsList';
 import ProjectCard from './ProjectCard';
 
-export default function projects(props) {
+export default function Projects(props) {
   // const { projectsList } = props;
 
   return (
-    <styledProjects>
+    <StyledProjects>
       {projectsList.map((project) => {
         return <ProjectCard key={project.id} project={project} />;
       })}
-    </styledProjects>
+    </StyledProjects>
   );
 }
 
-const styledProjects = styled.div``;
+const StyledProjects = styled.div`
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  /* align-items: center; */
+`;
