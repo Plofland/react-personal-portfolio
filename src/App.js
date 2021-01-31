@@ -26,8 +26,8 @@ function App() {
         </Route>
         <Route exact path="/">
           <Welcome />
-          <AboutMe />
           <Projects />
+          <AboutMe />
         </Route>
       </Wrapper>
     </>

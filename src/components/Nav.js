@@ -24,8 +24,9 @@ export default function nav() {
 }
 
 const StyledNavBar = styled.div`
+  /* border: 2px solid white; */
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-between;
   align-items: center;
   padding: 2%;

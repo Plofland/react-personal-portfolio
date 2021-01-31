@@ -54,7 +54,7 @@ const StyledCard = styled.div`
     /* display: flex; */
     border: 1px solid white;
     background-color: #ad9158;
-    width: 100%;
+    /* width: 100%; */
     color: black;
     text-align: center;
     /* height: 3rem; */

@@ -2,7 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default function about() {
-  return <styledAbout>About me goes here</styledAbout>;
+  return <StyledAbout>About me goes here</StyledAbout>;
 }
 
-const styledAbout = styled.div``;
+const StyledAbout = styled.div`
+  text-align: center;
+  padding: 4%;
+`;
