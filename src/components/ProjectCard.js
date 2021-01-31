@@ -53,12 +53,12 @@ const StyledCard = styled.div`
   .project-title {
     /* display: flex; */
     border: 1px solid white;
-    /* color: black; */
-    color: black;
     background-color: #ad9158;
     width: 100%;
+    color: black;
+    text-align: center;
     /* height: 3rem; */
-    /* padding: 3% 3%; */
+    padding: 3% 3%;
     border-radius: 0 0 5px 5px;
 
     /* justify-content: center; */
@@ -66,6 +66,7 @@ const StyledCard = styled.div`
 
   .code {
     color: #ad9158;
+    background-color: #ad9158;
     transition: 0.4s ease-in-out;
   }
 

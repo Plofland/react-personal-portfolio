@@ -8,9 +8,15 @@ export default function nav() {
       <StyledNavBar>
         <StyledHeader>Peter Lofland</StyledHeader>
         <StyledLink>
-          <Link to="/">Home</Link>
-          <Link to="/aboutMe">About Me</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/" className="link">
+            Home
+          </Link>
+          <Link to="/aboutMe" className="link">
+            About Me
+          </Link>
+          <Link to="/projects" className="link">
+            Projects
+          </Link>
         </StyledLink>
       </StyledNavBar>
     </>
@@ -21,15 +27,20 @@ const StyledNavBar = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
+  padding: 2%;
 `;
 
 const StyledLink = styled.div`
-  border: 3px solid white;
+  /* border: 3px solid white; */
   display: flex;
   flex-direction: row;
   width: 60%;
   justify-content: space-evenly;
-  /* text-decoration: none; why no work?*/
+  text-decoration: none;
+  .link {
+    text-decoration: none;
+  }
 `;
 
 const StyledHeader = styled.div`

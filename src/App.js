@@ -1,12 +1,12 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Route } from 'react-router-dom';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Nav from './components/Nav';
 import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-// import background from './assets/whatTheHexDark';
+import img from './assets/whatTheHexDark.png';
 
 //playing around with declared props vs. stylized components
 
@@ -38,8 +38,9 @@ export default App;
 
 const AppGlobal = createGlobalStyle`
   * {
+    /* background-image: url(${img}); issues her is that it set every possible background to the img*/
     /* background-image: url('./assets/whatTheHexDark.png'); */
-    /* background-color: red; */
+    background-color: teal; //placeholder until I can get the background-image working
   } 
   html,
   body,
@@ -171,5 +172,5 @@ const Wrapper = styled.div`
   /* background-color: rgba(128, 128, 0, 0.6); */
   font-family: 'Fira Sans', sans-serif;
   font-size: 2rem;
-  /* color: whitesmoke; */
+  color: whitesmoke;
 `;
