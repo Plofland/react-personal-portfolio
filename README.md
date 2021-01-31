@@ -3,6 +3,7 @@
 [] Replace "Home" link with a home icon (https://material-ui.com/components/icons/)
 ---or---
 [] Change the nav links to a 3 bar menu icon (https://css-tricks.com/three-line-menu-navicon/)(https://material-ui.com/components/menus/)
+[] Fix background image bug the assigns the background image to every possible background CSS selector in every component
 
 ---Welcome---
 
@@ -23,6 +24,7 @@
 
 ---Contact Section---
 
+[] add a Contact Component
 [] add a header ("Get a hold of me here")
 [] make animated social links.
 I could use this for stacked icons(https://www.youtube.com/watch?v=AEb_NhCHo9E&list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx)

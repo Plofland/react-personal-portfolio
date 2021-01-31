@@ -21,5 +21,4 @@ const StyledProjects = styled.div`
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
-  /* align-items: center; */
 `;
