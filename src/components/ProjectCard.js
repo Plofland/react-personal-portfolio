@@ -23,17 +23,14 @@ export default function projectCard(props) {
 }
 
 const StyledCard = styled.div`
-  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   width: 25%;
   margin: 2%;
-  /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;  */
 
   .project-tile {
     display: flex;
     flex-direction: column;
-    width: 100%;
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 
@@ -45,7 +42,7 @@ const StyledCard = styled.div`
 
   .project-tile:hover {
     box-shadow:
-    /* top */ rgba(255, 255, 255, 0.25) 0px -6px 20px,
+      /* top */ rgba(255, 255, 255, 0.25) 0px -6px 20px,
       /* right */ rgba(255, 255, 255, 0.25) 6px 0px 20px,
       /* bottom */ rgba(255, 255, 255, 0.25) 0px 6px 20px,
       /* left */ rgba(255, 255, 255, 0.25) -6px 0px 20px;
@@ -55,16 +52,10 @@ const StyledCard = styled.div`
   .project-img {
     width: 100%;
     border-radius: 5px 5px 0 0;
-    /* opacity: 0.25s ease-in-out; */
-  }
-
-  .project-img:hover {
-    opacity: 100%;
   }
 
   .project-title {
     display: flex;
-    /* border: 1px solid white; */
     background-color: #ad9158;
     color: black;
     text-align: center;
@@ -78,7 +69,7 @@ const StyledCard = styled.div`
   .code {
     color: #ad9158;
     background-color: #ad9158;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
 
   .project-title,

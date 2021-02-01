@@ -24,16 +24,13 @@ export default function nav() {
 }
 
 const StyledNavBar = styled.div`
-  /* border: 2px solid white; */
   display: flex;
-  /* width: 100%; */
   justify-content: space-between;
   align-items: center;
   padding: 2%;
 `;
 
 const StyledLink = styled.div`
-  /* border: 3px solid white; */
   display: flex;
   flex-direction: row;
   width: 60%;
