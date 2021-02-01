@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
 import img from './assets/whatTheHexDark.png';
 
 //playing around with declared props vs. stylized components
@@ -28,6 +29,7 @@ function App() {
           <Welcome />
           <Projects />
           <AboutMe />
+          <ContactMe />
         </Route>
       </Wrapper>
     </>

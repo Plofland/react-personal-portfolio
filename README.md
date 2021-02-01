@@ -45,4 +45,4 @@
     <br/>
     ---or---
     <br/>
-  - this one that uses a snake animation around the [social icons](https://www.youtube.com/watch?v=Vm_te-D25D4)
+  - this one that uses a snake animation around the [social icons](https://youtu.be/KYOYVZcZYAI?list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx&t=143)
