@@ -37,10 +37,10 @@ function App() {
 export default App;
 
 const AppGlobal = createGlobalStyle`
-  * {
-    /* background-image: url(${img}); issues her is that it set every possible background to the img*/
+  body {
+    background-image: url(${img});
     /* background-image: url('./assets/whatTheHexDark.png'); */
-    background-color: teal; //placeholder until I can get the background-image working
+    /* background-color: teal; //placeholder until I can get the background-image working */
   } 
   html,
   body,

@@ -28,21 +28,34 @@ const StyledCard = styled.div`
   flex-direction: column;
   width: 25%;
   margin: 2%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; //box-shadow for when the background is a light color
+  /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;  */
 
   .project-tile {
     display: flex;
     flex-direction: column;
     width: 100%;
-    box-shadow: 1px 1px darkslategray;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
     text-decoration: none;
-    /* border: 1px solid yellow; */
+    box-shadow: 
+      /* top */ rgba(255, 255, 255, 0.1) 0px -6px 10px,
+      /* right */ rgba(255, 255, 255, 0.1) 6px 0px 10px,
+      /* bottom */ rgba(255, 255, 255, 0.1) 0px 6px 10px,
+      /* left */ rgba(255, 255, 255, 0.1) -6px 0px 10px;
+  }
+
+  .project-tile:hover {
+    box-shadow:
+    /* top */ rgba(255, 255, 255, 0.25) 0px -6px 20px,
+      /* right */ rgba(255, 255, 255, 0.25) 6px 0px 20px,
+      /* bottom */ rgba(255, 255, 255, 0.25) 0px 6px 20px,
+      /* left */ rgba(255, 255, 255, 0.25) -6px 0px 20px;
+    transition: 0.4s ease-in-out;
   }
 
   .project-img {
     width: 100%;
-    opacity: 0.25s ease-in-out;
+    border-radius: 5px 5px 0 0;
+    /* opacity: 0.25s ease-in-out; */
   }
 
   .project-img:hover {

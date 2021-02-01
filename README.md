@@ -16,6 +16,7 @@
 [x] get the images to display for each project
 [] change up the styling of my project cards (https://material-ui.com/components/cards/)
 [] add the react Todo app to the projectsList.js component
+[] make the whole project sections responsive
 
 ---About Me Section---
 
