@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+//maybe this can be salvaged if the single page portfolio doesn't work out well
+
 export default function nav() {
   return (
     <>

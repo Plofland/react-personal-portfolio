@@ -2,16 +2,9 @@ import React from 'react';
 import styled, {
   createGlobalStyle
 } from 'styled-components';
-// import { Route } from 'react-router-dom';
-// import Header from './components/Header';
-// import Nav from './components/Nav';
-// import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
-import img from './assets/whatTheHexDark.png';
-
-//playing around with declared props vs. stylized components
 
 function App() {
   return (
