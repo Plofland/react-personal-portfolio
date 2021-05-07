@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { Route } from 'react-router-dom';
 // import Header from './components/Header';
 import Nav from './components/Nav';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
@@ -26,9 +26,9 @@ function App() {
           <AboutMe />
         </Route>
         <Route exact path="/">
-          <Welcome />
-          <Projects />
+          {/* <Welcome /> */}
           <AboutMe />
+          <Projects />
           <ContactMe />
         </Route>
       </Wrapper>
