@@ -2,7 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default function projectCard(props) {
-  const { hrefLink, imgSrc, imgAlt, projectName } = props.project;
+  const {
+    hrefLink,
+    imgSrc,
+    imgAlt,
+    projectName
+  } = props.project;
   return (
     <StyledCard>
       <a
@@ -11,7 +16,11 @@ export default function projectCard(props) {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="project-img" src={imgSrc} alt={imgAlt} />
+        <img
+          className="project-img"
+          src={imgSrc}
+          alt={imgAlt}
+        />
         <p class="project-title">
           <span className="code">&lt;</span>
           {projectName}
@@ -34,7 +43,8 @@ const StyledCard = styled.div`
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 
-      /* top */ rgba(255, 255, 255, 0.1) 0px -6px 10px,
+      /* top */ rgba(255, 255, 255, 0.1) 0px -6px
+        10px,
       /* right */ rgba(255, 255, 255, 0.1) 6px 0px 10px,
       /* bottom */ rgba(255, 255, 255, 0.1) 0px 6px 10px,
       /* left */ rgba(255, 255, 255, 0.1) -6px 0px 10px;
@@ -42,7 +52,8 @@ const StyledCard = styled.div`
 
   .project-tile:hover {
     box-shadow:
-      /* top */ rgba(255, 255, 255, 0.25) 0px -6px 20px,
+      /* top */ rgba(255, 255, 255, 0.25) 0px -6px
+        20px,
       /* right */ rgba(255, 255, 255, 0.25) 6px 0px 20px,
       /* bottom */ rgba(255, 255, 255, 0.25) 0px 6px 20px,
       /* left */ rgba(255, 255, 255, 0.25) -6px 0px 20px;
@@ -78,6 +89,6 @@ const StyledCard = styled.div`
   }
 
   .project-tile:hover .code {
-    color: black;
+    color: rgba(0, 0, 0, 75%);
   }
 `;

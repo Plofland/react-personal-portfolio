@@ -33,8 +33,9 @@
 
 ## About Me Section
 
-- [] add a header ("Learn a lit bit about me")
+- [] add a header ("Learn a lit bit about me", gitHub, resume)
 - [] write a short blurb about me and what I do
+- [] add a photo of me
 
 ## Contact Section
 

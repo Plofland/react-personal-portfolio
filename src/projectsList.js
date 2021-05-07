@@ -1,17 +1,17 @@
-import {
-  whyLambda,
-  hkLanding,
-  tribute,
-  survey,
-  todoApp,
-  coMake
-} from './assets';
-// import whyLambda from './assets/LambdaIntroPagePreview.png';
-// import hkLanding from './assets/product-preview.png';
-// import tribute from './assets/TributePagePreview.png';
-// import survey from './assets/SurveyPagePreview.png';
-// import todoApp from './assets/todoReactApp.png';
-// import coMake from './assets/co-make.png';
+// import {
+//   whyLambda,
+//   hkLanding,
+//   tribute,
+//   survey,
+//   todoApp,
+//   coMake
+// } from './assets';
+import whyLambda from './assets/LambdaIntroPagePreview.png';
+import hkLanding from './assets/product-preview.png';
+import tribute from './assets/TributePagePreview.png';
+import survey from './assets/SurveyPagePreview.png';
+import todoApp from './assets/todoReactApp.png';
+import coMake from './assets/co-make.png';
 
 const projectsList = [
   {
