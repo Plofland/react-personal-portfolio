@@ -16,7 +16,6 @@ export default function Projects(props) {
 }
 
 const StyledProjects = styled.div`
-  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
