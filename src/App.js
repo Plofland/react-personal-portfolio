@@ -2,9 +2,9 @@ import React from 'react';
 import styled, {
   createGlobalStyle
 } from 'styled-components';
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 // import Header from './components/Header';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 // import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
@@ -31,10 +31,6 @@ export default App;
 const AppGlobal = createGlobalStyle`
   body {
     background-color: #4FFBDF;
-  
-    /* background-image: url(${img}); */
-    /* background-image: url('./assets/whatTheHexDark.png'); */
-    /* background-color: teal; //placeholder until I can get the background-image working */
   } 
   //Global Reset
   html,
@@ -169,25 +165,3 @@ const Wrapper = styled.div`
   font-size: 2rem;
   color: rgba(0, 0, 0, 75%);
 `;
-
-//old routes that are depreciated
-{
-  /* <Wrapper> */
-}
-{
-  /* <Header /> */
-}
-// <Nav />
-// <Route path="/projects">
-// <Projects />
-// </Route>
-// <Route path="/aboutMe">
-// <AboutMe />
-// </Route>
-// <Route exact path="/">
-// {/* <Welcome /> */}
-// <AboutMe />
-// <Projects />
-// <ContactMe />
-// </Route>
-// </Wrapper>

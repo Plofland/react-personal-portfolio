@@ -58,8 +58,6 @@ const StyledBustShot = styled.div`
     padding: 2%;
     height: 50vh;
     border-radius: 50px;
-    /* background-color: green; */
-    /* background-position: 20px 20px; */
     box-shadow: 4px 8px #008b74;
   }
   /* border: 1px solid white; */
