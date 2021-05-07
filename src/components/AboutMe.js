@@ -10,11 +10,14 @@ export default function About() {
         <h4>FULL STACK WEB DEVELOPER</h4>
         <p>
           I love coding to solve problems and designing out
-          websites. I worked remotely to collaborate with
-          teams produce viable web development projects
-          within Lambda School's system. This gave me the
-          chance to experience work environments while
-          learning web development.
+          websites.
+        </p>
+        <p>
+          I worked remotely to collaborate with teams
+          produce viable web development projects within
+          Lambda School's system. This gave me the chance to
+          experience work environments while learning web
+          development.
         </p>
       </StyledSelfDescription>
       <StyledBustShot>
@@ -27,13 +30,13 @@ export default function About() {
 const StyledAbout = styled.div`
   display: flex;
   padding: 4%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 `;
 
 const StyledSelfDescription = styled.div`
   text-align: center;
   padding: 2%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   h1 {
     font-size: 3rem;
     margin: 2rem 0;
@@ -52,10 +55,12 @@ const StyledBustShot = styled.div`
   display: flex;
   justify-content: center;
   img {
-    padding: 4%;
+    padding: 2%;
     height: 50vh;
     border-radius: 50px;
-    
+    /* background-color: green; */
+    /* background-position: 20px 20px; */
+    box-shadow: 4px 8px #008b74;
   }
-  border: 1px solid white;
+  /* border: 1px solid white; */
 `;
