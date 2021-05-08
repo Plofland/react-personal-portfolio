@@ -118,6 +118,7 @@ const StyledContact = styled.div`
   }
 `;
 
+//*Contact Icons Stack & Animation
 const StyledIcons = styled.div`
   display: flex;
   flex-direction: row;
@@ -156,6 +157,10 @@ const StyledIcons = styled.div`
   }
 
   //*Icon Stack Hover State
+  ul li:hover span {
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
   ul li:hover span:nth-child(5) {
     transform: translate(40px, -40px);
     opacity: 1;
