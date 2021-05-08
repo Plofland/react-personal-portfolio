@@ -1,10 +1,22 @@
 import React from 'react';
-import styled, {
-  createGlobalStyle
-} from 'styled-components';
+
+//*Components
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
+
+//*Styling
+import styled, {
+  createGlobalStyle
+} from 'styled-components';
+
+//*Icons
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+//*Creation of Library of Icons
+library.add(fas, fab)
 
 function App() {
   return (
