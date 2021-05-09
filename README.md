@@ -5,8 +5,8 @@
 ## General
 
 - [x] Fix background image bug the assigns the background image to every possible background CSS selector in every component
-
 - [x] Make it so that my name is not visible when on the home page ('/' endpoint) 👻
+- [ ] Change the default favicon
 
 <!-- ## Nav Bar
 
