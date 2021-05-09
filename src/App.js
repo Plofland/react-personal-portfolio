@@ -11,12 +11,12 @@ import styled, {
 } from 'styled-components';
 
 //*Icons
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 //*Creation of Library of Icons
-library.add(fas, fab)
+library.add(fas, fab);
 
 function App() {
   return (
@@ -169,4 +169,9 @@ const Wrapper = styled.div`
   font-family: 'Fira Sans', sans-serif;
   font-size: 2rem;
   color: rgba(0, 0, 0, 75%);
+
+  //*Phone Styling
+  @media (max-width: 600px) {
+
+  }
 `;

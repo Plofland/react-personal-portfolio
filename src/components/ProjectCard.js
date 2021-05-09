@@ -91,4 +91,32 @@ const StyledCard = styled.div`
   .project-tile:hover .code {
     color: rgba(0, 0, 0, 75%);
   }
+
+  //*Tablet Styling
+  @media (max-width: 1000px) {
+    .project-title,
+    .code {
+      font-size: 1.2rem;
+    }
+  }
+
+  //*Phone Styling
+  @media (max-width: 600px) {
+    width: 80%;
+    .project-title,
+    .code {
+      font-size: 1.2rem;
+      color: rgba(0, 0, 0, 75%);
+    }
+  }
+  
+  //*Large Monitor Styling
+  @media (min-width: 1400px) {
+    width: 15%;
+
+    .project-title,
+    .code {
+      font-size: 1rem;
+    }
+  }
 `;

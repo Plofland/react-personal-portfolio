@@ -8,16 +8,53 @@ export default function Projects(props) {
 
   return (
     <StyledProjects>
-      {projectsList.map((project) => {
-        return <ProjectCard key={project.id} project={project} />;
-      })}
+      <h2>Projects</h2>
+      <div className="project-tiles">
+        {projectsList.map((project) => {
+          return (
+            <ProjectCard
+              key={project.id}
+              project={project}
+            />
+          );
+        })}
+      </div>
     </StyledProjects>
   );
 }
 
 const StyledProjects = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  //*Tablet Styling
+  @media (max-width: 1000px) {
+    width: 100%;
+    padding: 0;
+  }
+
+  //*Phone Styling
+  @media (max-width: 600px) {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  //*Large Monitor Styling
+  @media (min-width: 1400px) {
+  }
 `;
