@@ -170,7 +170,8 @@ const Wrapper = styled.div`
   font-size: 2rem;
   color: rgba(0, 0, 0, 75%);
 
-  /* //*Phone Styling
+  //*Phone Styling
   @media (max-width: 600px) {
-  } */
+
+  }
 `;

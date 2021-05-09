@@ -29,7 +29,6 @@ const StyledProjects = styled.div`
   width: 80%;
   margin: 0 auto;
   padding: 5%;
-  border: 1px solid black;
 
   h2 {
     display: flex;
@@ -41,50 +40,18 @@ const StyledProjects = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid red;
   }
 
   //*Tablet Styling
   @media (max-width: 1000px) {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    margin: 0 auto;
     padding: 0;
-
-    h2 {
-      display: flex;
-      justify-content: center;
-    }
-
-    .project-tiles {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      border: 1px solid red;
-    }
   }
 
   //*Phone Styling
   @media (max-width: 600px) {
-    display: flex;
-    width: 100%;
     margin: 0 auto;
     padding: 0;
-
-    h2 {
-      display: flex;
-      justify-content: center;
-    }
-
-    .project-tiles {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      border: 1px solid red;
-    }
   }
 
   //*Large Monitor Styling
