@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ContactMe() {
   return (
     <StyledContact>
-      <h2>Get a Hold of Me</h2>
+      <h2>Get in Contact</h2>
       <StyledIcons>
         <ul>
           <li>

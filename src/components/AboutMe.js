@@ -38,24 +38,18 @@ const StyledAbout = styled.div`
   display: flex;
   flex-direction: column;
   padding: 4%;
-
 `;
 
 const StyledIntro = styled.div`
-
-
   //*Tablet Styling
   @media (min-width: 601px) {
     display: flex;
     align-items: center;
     align-content: space-around;
-
   }
 `;
 
 const StyledHello = styled.div`
-
-
   h1 {
     font-size: 3rem;
     margin: 2rem 0;
@@ -78,7 +72,6 @@ const StyledHello = styled.div`
 
   //*Phone Styling
   @media (max-width: 600px) {
-
     h4 {
       font-size: 1rem;
       margin: 1rem 2rem;
@@ -97,10 +90,7 @@ const StyledSelfDescription = styled.div`
   }
 
   //*Phone Styling
-  @media (max-width: 600px) {
-    /* display: flex; */
-    justify-content: center;
-  }
+  @media (max-width: 600px) {}
 `;
 
 const StyledBustShot = styled.div`
