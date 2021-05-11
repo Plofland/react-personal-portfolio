@@ -5,19 +5,15 @@ import bustShot from '../assets/selfBustShot.jpg';
 export default function About() {
   return (
     <StyledAbout>
-      <StyledIntro>
-        <StyledHello>
-          <h1>Hi there, I'm Peter</h1>
-          <h4>FULL STACK WEB DEVELOPER</h4>
-        </StyledHello>
-        <StyledBustShot>
-          <img
-            src={bustShot}
-            alt="Peter Lofland bust shot"
-          />
-        </StyledBustShot>
-      </StyledIntro>
-      <StyledSelfDescription>
+      <div className="hello">
+        <h1>Hi there, I'm Peter</h1>
+        <h4>FULL STACK WEB DEVELOPER</h4>
+      </div>
+      <div id="image">
+        <img src={bustShot} alt="Peter Lofland bust shot" />
+      </div>
+
+      <div className="selfDescription">
         <p>
           I love coding to solve problems and designing out
           websites.
@@ -29,104 +25,76 @@ export default function About() {
           experience work environments while learning web
           development.
         </p>
-      </StyledSelfDescription>
+      </div>
     </StyledAbout>
   );
 }
 
 const StyledAbout = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 4%;
-`;
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-template-rows: 50vh 50vh;
+  grid-template-areas:
+    'hello image'
+    'selfDescription selfDescription';
 
-const StyledIntro = styled.div`
-  //*Tablet Styling
-  @media (min-width: 601px) {
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-  }
-`;
+  #image {
+    /* grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    grid-area: image;
+    border: 1px solid yellowgreen;
 
-const StyledHello = styled.div`
-  h1 {
-    font-size: 3rem;
-    margin: 2rem 0;
-  }
-  h4 {
-    display: flex;
-    font-size: 1rem;
-    margin: 1rem 3rem;
-    justify-content: flex-end;
-  }
-
-  //*Tablet Styling
-  @media (min-width: 601px) {
-    display: flex;
-    flex-direction: column;
-    h4 {
-      margin: 1rem;
+    img {
+      height: 100%;
+      border-radius: 50px;
+      box-shadow: 4px 8px #008b74;
     }
   }
 
-  //*Phone Styling
-  @media (max-width: 600px) {
+  .hello {
+    /* grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    border: 1px solid blue;
+    grid-area: hello;
+
+    h1 {
+      font-size: 3rem;
+      margin: 2rem 0;
+    }
     h4 {
       font-size: 1rem;
-      margin: 1rem 2rem;
+      margin: 1rem 3rem;
+      margin-right: 0;
       justify-content: flex-end;
     }
   }
-`;
 
-const StyledSelfDescription = styled.div`
-  text-align: center;
-  padding: 2%;
+  .selfDescription {
+    /* grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: span 2; */
+    border: 1px solid red;
+    grid-area: selfDescription;
 
-  p {
-    font-size: 1.4rem;
-    margin: 4rem 0;
-  }
-
-  //*Phone Styling
-  @media (max-width: 600px) {}
-`;
-
-const StyledBustShot = styled.div`
-  display: flex;
-  justify-content: center;
-  img {
-    padding: 2%;
-    height: 50vh;
-    border-radius: 50px;
-    box-shadow: 4px 8px #008b74;
-  }
-
-  //*Phone Styling
-  @media (max-width: 600px) {
-    img {
-      padding: 0;
-      height: 60vh;
-      /* width: 80%; */
-      border-radius: 50px;
-      box-shadow: 2px 4px #008b74;
+    p {
+      justify-self: center;
+      border: 1px solid green;
     }
   }
 
-  //*Tablet Styling
-  @media (max-width: 1000px) {
-    /* display: flex;
-    justify-content: center;
-    img {
-      padding: 0;
-      height: 30vh;
-      border-radius: 50px;
-      box-shadow: 2px 4px #008b74;
-    } */
-  }
+  /* display: grid;
+  grid-template-columns: 4% 20% 15% 20% 4%;
+  grid-template-rows: 2% 35% 5% 20% 2%;
+  border: 1px solid blue;
+  justify-content: center;
+  
 
-  //*Large Monitor Styling
-  @media (min-width: 1400px) {
-  }
+
+
+  */
 `;
