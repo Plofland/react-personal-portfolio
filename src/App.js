@@ -1,6 +1,7 @@
 import React from 'react';
 
 //*Components
+import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
@@ -18,12 +19,12 @@ library.add(fas, fab);
 function App() {
   return (
     <>
-        <AboutMe />
-        <Projects />
-        <ContactMe />
+      <Nav />
+      <AboutMe />
+      <Projects />
+      <ContactMe />
     </>
   );
 }
 
 export default App;
-
