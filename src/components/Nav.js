@@ -10,14 +10,14 @@ export default function nav() {
       <StyledNavBar>
         <StyledHeader>Peter Lofland</StyledHeader>
         <StyledLink>
-          <Link to="/" className="link">
-            Home
+          <Link to="/projects" className="link">
+            Projects
           </Link>
           <Link to="/aboutMe" className="link">
             About Me
           </Link>
-          <Link to="/projects" className="link">
-            Projects
+          <Link to="/" className="link">
+            Contact
           </Link>
         </StyledLink>
       </StyledNavBar>
