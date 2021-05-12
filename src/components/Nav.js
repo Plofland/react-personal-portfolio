@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 export default function nav() {
   return (
     <>
-      <div className='navbar'>
-        <h1>Peter Lofland</h1>
-        <div className='links'>
+      <div className="navbar">
+        <h1>(WIP)Peter Lofland(WIP)</h1>
+        <div className="links">
           <Link to="/projects" className="link">
             Projects
           </Link>
