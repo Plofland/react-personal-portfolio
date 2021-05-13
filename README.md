@@ -9,7 +9,7 @@
 - [ ] Change the default favicon
 - [ ] Update to new color palette based on photo
 - [ ] get a new domain name such as "peter-lofland"
-
+- [ ] get SASS styling files connected and running
 ## Projects Section
 - [ ] add projects to MongoDB cluster
 - [ ] make an axios call to the DB

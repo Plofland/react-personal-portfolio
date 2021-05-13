@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 
 //*Styling
+import './styles/App.scss'
 
 //*Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
