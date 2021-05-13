@@ -1,3 +1,10 @@
+$primaryText: #0c0c0c;
+$background: #dce3e8;
+$headerText: #101720;
+$navbar: #9cb9cd;
+$sectionBackdrop: #9f9589;
+$sectionTitle: #72a0cc;
+
 //Global Reset
 html,
 body,
@@ -124,11 +131,10 @@ table {
   border-spacing: 0;
 }
 
-
 //Begin Styling
 body {
-  background-color: blue;
+  background-color: $background;
   font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
-  color: rgba(0, 0, 0, 75%);
+  color: $primaryText;
 }

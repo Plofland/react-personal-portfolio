@@ -21,8 +21,8 @@ function App() {
   return (
     <>
       <Nav />
-      <AboutMe />
       <Projects />
+      <AboutMe />
       <ContactMe />
     </>
   );
