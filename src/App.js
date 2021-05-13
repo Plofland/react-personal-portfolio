@@ -2,12 +2,13 @@ import React from 'react';
 
 //*Components
 import Nav from './components/Nav';
+import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 
 //*Styling
-import './styles/App.scss'
+import './styles/App.scss';
 
 //*Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -18,14 +19,15 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fas, fab);
 
 function App() {
-  return (
-    <>
-      <Nav />
-      <Projects />
-      <AboutMe />
-      <ContactMe />
-    </>
-  );
+	return (
+		<>
+			<Nav />
+			<Intro />
+			<Projects />
+			<AboutMe />
+			<ContactMe />
+		</>
+	);
 }
 
 export default App;

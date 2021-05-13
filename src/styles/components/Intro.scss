@@ -1,0 +1,18 @@
+$primaryText: #0c0c0c;
+$background: #dce3e8;
+$headerText: #101720;
+$navbar: #9cb9cd;
+$sectionBackdrop: #9f9589;
+$sectionTitle: #72a0cc;
+
+.intro {
+	display: flex;
+	background-color: $sectionBackdrop;
+	border-radius: 30px;
+
+	.introDescription {
+		p {
+			justify-self: center;
+		}
+	}
+}
