@@ -4,7 +4,6 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General
 
-
 - [ ] Add the introduction component from the figma file
 - [ ] Change the default favicon
 - [ ] Update to new color palette based on photo
@@ -12,8 +11,8 @@
 - [x] get SASS styling files connected and running
 
 ## Navbar
-- [ ] make the navbar background transparent
-- [ ] make the navbar background blur
+- [x] make the navbar background transparent
+- [x] make the navbar background blur
 
 ## Projects Section
 

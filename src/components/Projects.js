@@ -4,10 +4,11 @@ import ProjectCard from './ProjectCard';
 import '../styles/components/Projects.scss';
 
 export default function Projects(props) {
-
   return (
     <div className="projectsContainer">
-      <h2>Projects</h2>
+      <div className="sectionTitle">
+        <h2>Projects</h2>
+      </div>
       <div className="project-tiles">
         {projectsList.map((project) => {
           return (
