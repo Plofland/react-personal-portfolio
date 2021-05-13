@@ -10,7 +10,8 @@ $sectionTitle: #72a0cc;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  background-color: $navbar;
+  background-color: rgba($navbar, 0.85);
+  backdrop-filter: blur(3px);
   position: fixed;
   width: 100%;
 

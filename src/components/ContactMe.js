@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ContactMe() {
   return (
     <div className="contactMe">
-      <h2>Get in Contact</h2>
+      <div className="sectionTitle">
+        <h2>Get in Contact</h2>
+      </div>
       <div className="socialIcons">
         <ul>
           <li>

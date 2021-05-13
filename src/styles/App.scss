@@ -5,6 +5,8 @@ $navbar: #9cb9cd;
 $sectionBackdrop: #9f9589;
 $sectionTitle: #72a0cc;
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 //Global Reset
 html,
 body,
@@ -131,10 +133,24 @@ table {
   border-spacing: 0;
 }
 
-//Begin Styling
+//BEGIN STYLING
+//Main App
 body {
   background-color: $background;
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   color: $primaryText;
+}
+
+//Section titles
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: $sectionTitle;
+}
+
+.sectionTitle {
+  background-color: $sectionTitle;
+  border-radius: 30px;
 }
