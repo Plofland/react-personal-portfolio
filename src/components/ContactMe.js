@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import '../styles/components/Contact.scss';
 // import FontAwesome from 'react-fontawesome'
 // import faStyles from 'font-awesome/css/font-awesome.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function ContactMe() {
   return (
-    <StyledContact>
+    <div className="contactMe">
       <h2>Get in Contact</h2>
-      <StyledIcons>
+      <div className="socialIcons">
         <ul>
           <li>
             <a
@@ -98,8 +99,8 @@ function ContactMe() {
             </a>
           </li>
         </ul>
-      </StyledIcons>
-    </StyledContact>
+      </div>
+    </div>
   );
 }
 

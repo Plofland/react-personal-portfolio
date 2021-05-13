@@ -1,8 +1,16 @@
+$primaryText: #0c0c0c;
+$background: #dce3e8;
+$headerText: #101720;
+$navbar: #9cb9cd;
+$sectionBackdrop: #9f9589;
+$sectionTitle: #72a0cc;
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
+  background-color: $navbar;
 
   h1 {
     font-size: 2.5rem;

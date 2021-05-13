@@ -2,12 +2,12 @@ import React from 'react';
 // import styled from 'styled-components';
 import projectsList from '../projectsList';
 import ProjectCard from './ProjectCard';
-
+import '../styles/components/Projects.scss';
 export default function Projects(props) {
   // const { projectsList } = props;
 
   return (
-    <div className='projectContainer'>
+    <div className="projectsContainer">
       <h2>Projects</h2>
       <div className="project-tiles">
         {projectsList.map((project) => {
