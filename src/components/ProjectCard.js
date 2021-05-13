@@ -1,5 +1,4 @@
 import React from 'react';
-// import styled from 'styled-components';
 import '../styles/components/ProjectCard.scss';
 
 export default function projectCard(props) {

@@ -4,15 +4,20 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General
 
-- [x] Fix background image bug the assigns the background image to every possible background CSS selector in every component
-- [x] Make it so that my name is not visible when on the home page ('/' endpoint) 👻
+
+- [ ] Add the introduction component from the figma file
 - [ ] Change the default favicon
 - [ ] Update to new color palette based on photo
 - [ ] get a new domain name such as "peter-lofland"
-- [ ] get SASS styling files connected and running
+- [x] get SASS styling files connected and running
+
+## Navbar
+- [ ] make the navbar background transparent
+- [ ] make the navbar background blur
+
 ## Projects Section
-- [ ] add projects to MongoDB cluster
-- [ ] make an axios call to the DB
+
+- [ ] animate the projects on entrance
 - [ ] draw projects from state instead of local file
 - [x] add a header ("Here are some of my projects")
 - [x] get props to pass down so that project cards will render
@@ -22,7 +27,8 @@
 - [x] make the whole project sections responsive
 
 ## About Me Section
-- [ ] animate aboutMe section when the page loads
+
+- [ ] animate aboutMe section (on entrance) when you scroll down to it
 - [x] format description layout
 - [x] make the aboutMe responsive for mobile
 - [x] make the aboutMe responsive for larger monitors
@@ -32,6 +38,7 @@
 
 ## Contact Section
 
+- [ ] make the contact section fit in with the theme of the rest of the page
 - [x] add a Contact Component
 - [x] add a header ("Get a hold of me here")
 - [x] make animated social links.

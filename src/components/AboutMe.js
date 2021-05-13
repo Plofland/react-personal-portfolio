@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import '../styles/components/AboutMe.scss';
 import bustShot from '../assets/selfBustShot.jpg';
 
