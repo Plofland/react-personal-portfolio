@@ -2,10 +2,7 @@ import React from 'react';
 
 //*Components
 import Nav from './components/Nav';
-import Intro from './components/Intro';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
+import Home from './components/Home';
 
 //*Styling
 import './styles/App.scss';
@@ -19,15 +16,12 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fas, fab);
 
 function App() {
-	return (
-		<>
-			<Nav />
-			<Intro />
-			<Projects />
-			<AboutMe />
-			<ContactMe />
-		</>
-	);
+  return (
+    <>
+      <Nav />
+      <Home />
+    </>
+  );
 }
 
 export default App;
