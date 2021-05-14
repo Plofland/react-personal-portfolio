@@ -2,12 +2,10 @@ import React from 'react';
 
 //*Components
 import Nav from './components/Nav';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
+import Home from './components/Home';
 
 //*Styling
-import './styles/App.scss'
+import './styles/App.scss';
 
 //*Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -21,9 +19,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Projects />
-      <AboutMe />
-      <ContactMe />
+      <Home />
     </>
   );
 }
