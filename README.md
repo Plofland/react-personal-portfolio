@@ -4,11 +4,11 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General
 
-- [ ] Track bar under the navbar that shows the progress of the scroll through the site
 - [x] Add the introduction component from the figma file
 - [ ] Change the default favicon
 - [ ] Update to new color palette based on gif in intro component
 - [ ] get a new domain name such as "peter-lofland"
+- [ ] (STRETCH) each section gets animated in as user scrolls
 
 ##Styling
 
@@ -18,21 +18,23 @@
 - [x] make the navbar background transparent
 - [x] make the navbar background blur
 - [ ] restructure app.js so that the navbar sits on top of all the content
+- [ ] (STRETCH) Track bar under the navbar that shows the progress of the scroll through the site
+
+## Intro
+- [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Projects Section
 
-- [ ] animate the projects on entrance
-- [ ] draw projects from state instead of local file
+- [ ] (STRETCH) stagger animate the projects on entrance
 - [x] make the whole project sections responsive
 
 ## About Me Section
 
-- [ ] animate aboutMe section (on entrance) when you scroll down to it
 - [ ] add a more natural photo of me
 
 ## Contact Section
 
-- [ ] make the contact section fit in with the theme of the rest of the page
+- [ ] make the contact section animations fit in with the theme of the rest of the page
 - [x] make animated social links.
   - I could use this for [stacked icons](https://www.youtube.com/watch?v=AEb_NhCHo9E&list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx)
     <br/>
