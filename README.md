@@ -4,42 +4,35 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General
 
-- [ ] Add the introduction component from the figma file
+- [ ] Track bar under the navbar that shows the progress of the scroll through the site
+- [x] Add the introduction component from the figma file
 - [ ] Change the default favicon
-- [ ] Update to new color palette based on photo
+- [ ] Update to new color palette based on gif in intro component
 - [ ] get a new domain name such as "peter-lofland"
+
+##Styling
+
 - [x] get SASS styling files connected and running
 
 ## Navbar
 - [x] make the navbar background transparent
 - [x] make the navbar background blur
+- [ ] restructure app.js so that the navbar sits on top of all the content
 
 ## Projects Section
 
 - [ ] animate the projects on entrance
 - [ ] draw projects from state instead of local file
-- [x] add a header ("Here are some of my projects")
-- [x] get props to pass down so that project cards will render
-- [x] get the images to display for each project
-- [x] change up the styling of my project cards
-- [x] add the react Todo app to the projectsList.js component
 - [x] make the whole project sections responsive
 
 ## About Me Section
 
 - [ ] animate aboutMe section (on entrance) when you scroll down to it
-- [x] format description layout
-- [x] make the aboutMe responsive for mobile
-- [x] make the aboutMe responsive for larger monitors
-- [x] add a header ("Learn a lit bit about me", gitHub, resume)
-- [x] write a short blurb about me and what I do
-- [x] add a photo of me
+- [ ] add a more natural photo of me
 
 ## Contact Section
 
 - [ ] make the contact section fit in with the theme of the rest of the page
-- [x] add a Contact Component
-- [x] add a header ("Get a hold of me here")
 - [x] make animated social links.
   - I could use this for [stacked icons](https://www.youtube.com/watch?v=AEb_NhCHo9E&list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx)
     <br/>
