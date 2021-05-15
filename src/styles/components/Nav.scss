@@ -15,12 +15,7 @@ $sectionTitle: #72a0cc;
   backdrop-filter: blur(3px);
   position: fixed;
   height: 1vh;
-
-  h1 {
-    font-size: 2rem;
-    color: $headerText;
-    font-weight: 700;
-  }
+  z-index: 999;
 
   .links {
     display: flex;

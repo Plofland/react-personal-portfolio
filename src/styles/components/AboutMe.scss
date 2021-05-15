@@ -1,9 +1,9 @@
 $primaryText: #0c0c0c;
-$background: #F9F3ED;
+$background: #f9f3ed;
 $headerText: #101720;
-$navbar: #1A9682;
-$sectionBackdrop: #DABF92;
-$sectionTitle: #72A0CC;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
+$sectionTitle: #72a0cc;
 
 .aboutMe {
   display: flex;
@@ -26,7 +26,7 @@ $sectionTitle: #72A0CC;
     #image {
       img {
         height: 100%;
-        border-radius: 50px;
+        border-radius: 30px;
         box-shadow: 4px 8px #008b74;
       }
     }

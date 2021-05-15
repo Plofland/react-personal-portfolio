@@ -138,29 +138,38 @@ table {
 body {
   background-color: $background;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
+  font-size: 16pt;
+  font-weight: lighter;
   color: $primaryText;
   display: flex;
 }
 
-//Section titles
+//*Font Defaults
+h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
 h2 {
+  font-size: 28pt;
+  font-weight: medium;
+}
+h3 {
+  font-size: 24pt;
+}
+h4 {
+  font-size: 20pt;
+}
+h5 {
+  font-size: 18pt;
+}
+
+//Section titles
+.sectionTitle {
   display: flex;
   justify-content: center;
-  font-size: 2rem;
-  background-color: $sectionTitle;
-}
-
-// .navbar {
-//   position: fixed;
-// }
-
-.sectionTitle {
   background-color: $sectionTitle;
   border-radius: 30px;
+  border: 1px solid $primaryText;
+  padding: 0.5% 1%;
 }
-
-// #homeContent {
-//   margin: 100px;
-//   border: 2px solid black;
-// }

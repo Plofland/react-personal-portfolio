@@ -6,7 +6,7 @@
 
 - [x] Add the introduction component from the figma file
 - [ ] Change the default favicon
-- [ ] Update to new color palette based on gif in intro component
+- [x] Update to new color palette based on gif in intro component
 - [ ] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) each section gets animated in as user scrolls (see figma design)
 
@@ -22,12 +22,13 @@
 - [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
 
 ## Intro
+- [ ] Make a 'get in touch' button (call to action)
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Projects Section
 
-- [ ] (STRETCH) stagger animate the projects on entrance
 - [x] make the whole project sections responsive
+- [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
 
@@ -42,3 +43,7 @@
     ---or---
     <br/>
   - this one that uses a snake animation around the [social icons](https://youtu.be/KYOYVZcZYAI?list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx&t=143)
+
+
+## Footer
+- [ ] add footer crediting Marina
