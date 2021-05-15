@@ -18,7 +18,7 @@
 - [x] make the navbar background transparent
 - [x] make the navbar background blur
 - [ ] restructure app.js so that the navbar sits on top of all the content
-- [ ] (STRETCH) Track bar under the navbar that shows the progress of the scroll through the site
+- [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
 
 ## Intro
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
