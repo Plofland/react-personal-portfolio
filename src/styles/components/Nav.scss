@@ -13,8 +13,8 @@ $sectionTitle: #72a0cc;
   padding: 2%;
   background-color: rgba($navbar, 0.85);
   backdrop-filter: blur(3px);
-  position: sticky;
-  // z-index: 999;
+  position: fixed;
+  height: 1vh;
 
   h1 {
     font-size: 2rem;
@@ -31,6 +31,10 @@ $sectionTitle: #72a0cc;
 
     .link {
       text-decoration: none;
+    }
+    .link:hover {
+      transform: scale(1.2);
+      transition: 0.2s ease-in-out;
     }
   }
 }

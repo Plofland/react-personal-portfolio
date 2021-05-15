@@ -1,9 +1,9 @@
 $primaryText: #0c0c0c;
-$background: #F9F3ED;
+$background: #f9f3ed;
 $headerText: #101720;
-$navbar: #1A9682;
-$sectionBackdrop: #DABF92;
-$sectionTitle: #72A0CC;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
+$sectionTitle: #72a0cc;
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
@@ -89,12 +89,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -108,49 +108,59 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 //BEGIN STYLING
 //Main App
 body {
-	background-color: $background;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1rem;
-	color: $primaryText;
+  background-color: $background;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: $primaryText;
+  display: flex;
 }
 
 //Section titles
 h2 {
-	display: flex;
-	justify-content: center;
-	font-size: 2rem;
-	background-color: $sectionTitle;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: $sectionTitle;
 }
 
+// .navbar {
+//   position: fixed;
+// }
+
 .sectionTitle {
-	background-color: $sectionTitle;
-	border-radius: 30px;
+  background-color: $sectionTitle;
+  border-radius: 30px;
 }
+
+// #homeContent {
+//   margin: 100px;
+//   border: 2px solid black;
+// }
