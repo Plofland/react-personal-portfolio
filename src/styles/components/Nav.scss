@@ -1,26 +1,21 @@
 $primaryText: #0c0c0c;
-$background: #dce3e8;
+$background: #f9f3ed;
 $headerText: #101720;
-$navbar: #9cb9cd;
-$sectionBackdrop: #9f9589;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
 $sectionTitle: #72a0cc;
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 2%;
   background-color: rgba($navbar, 0.85);
   backdrop-filter: blur(3px);
   position: fixed;
-  width: 100%;
-
-
-  h1 {
-    font-size: 2rem;
-    color: $headerText;
-    font-weight: 700;
-  }
+  height: 1vh;
+  z-index: 999;
 
   .links {
     display: flex;
@@ -31,6 +26,10 @@ $sectionTitle: #72a0cc;
 
     .link {
       text-decoration: none;
+    }
+    .link:hover {
+      transform: scale(1.2);
+      transition: 0.2s ease-in-out;
     }
   }
 }

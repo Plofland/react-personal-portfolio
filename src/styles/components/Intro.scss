@@ -1,18 +1,39 @@
 $primaryText: #0c0c0c;
-$background: #dce3e8;
+$background: #f9f3ed;
 $headerText: #101720;
-$navbar: #9cb9cd;
-$sectionBackdrop: #9f9589;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
 $sectionTitle: #72a0cc;
 
-.intro {
-	display: flex;
-	background-color: $sectionBackdrop;
-	border-radius: 30px;
+.introSection {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 5% 0;
 
-	.introDescription {
-		p {
-			justify-self: center;
-		}
-	}
+  .intro {
+    .sectionTitle {
+      position: absolute;
+    }
+
+    .introDescription {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: $sectionBackdrop;
+      height: 80%;
+      border-radius: 30px;
+      margin: 5% 0 0 5%;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+  #introImg {
+    img {
+      width: 42vw;
+      opacity: 0.75;
+    }
+  }
 }

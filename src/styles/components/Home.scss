@@ -1,3 +1,16 @@
-.homeContent {
-  height: 100vh;
+$primaryText: #0c0c0c;
+$background: #f9f3ed;
+$headerText: #101720;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
+$sectionTitle: #72a0cc;
+
+#homeContent {
+  // border: 2px solid black;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-end;
+  margin-top: 5%;
+  // width: 70%;
+  padding: 5%;
 }

@@ -1,20 +1,19 @@
 $primaryText: #0c0c0c;
-$background: #dce3e8;
+$background: #f9f3ed;
 $headerText: #101720;
-$navbar: #9cb9cd;
-$sectionBackdrop: #9f9589;
+$navbar: #1a9682;
+$sectionBackdrop: #dabf92;
 $sectionTitle: #72a0cc;
 
 .projectsContainer {
   display: flex;
   flex-direction: column;
   width: 80%;
+  // margin: 5% 120px;
   margin: 0 auto;
   padding: 5%;
   background-color: $sectionBackdrop;
   border-radius: 30px;
-
-  
 
   .project-tiles {
     display: flex;
