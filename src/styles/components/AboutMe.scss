@@ -1,29 +1,29 @@
 @import '../color.scss';
 
-.aboutMe {
-  display: flex;
-  flex-direction: column;
-  background-color: $sectionBackdrop;
-  border-radius: 30px;
+.aboutMeSection {
+	margin: 5% 0;
 
-  .innerAboutMe {
-    display: flex;
-    flex-direction: row;
-    height: 35vh;
+	.AboutMeInner {
+		display: flex;
+		flex-direction: row;
+		background-color: $sectionBackdrop;
+		border-radius: 30px;
+		border: 1px solid black;
+		height: 40vh;
 
-    .selfDescription {
-      p {
-        justify-self: center;
-        border: 1px solid green;
-      }
-    }
+		.selfDescription {
+			p {
+				justify-self: center;
+				border: 1px solid green;
+			}
+		}
 
-    #image {
-      img {
-        height: 100%;
-        border-radius: 30px;
-        box-shadow: 4px 8px #008b74;
-      }
-    }
-  }
+		#image {
+			img {
+				height: 100%;
+				border-radius: 30px;
+				box-shadow: 4px 8px #008b74;
+			}
+		}
+	}
 }

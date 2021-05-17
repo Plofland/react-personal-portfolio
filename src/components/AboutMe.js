@@ -4,11 +4,11 @@ import bustShot from '../assets/selfBustShot.jpg';
 
 export default function About() {
 	return (
-		<div className="aboutMe">
+		<div className="aboutMeSection">
 			<div className="sectionTitle">
 				<h2>About</h2>
 			</div>
-			<div className="innerAboutMe">
+			<div className="AboutMeInner">
 				<div className="selfDescription">
 					<p>
 						I worked remotely to collaborate

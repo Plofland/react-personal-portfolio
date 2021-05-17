@@ -1,39 +1,39 @@
 @import '../color.scss';
 
-
 .projectsSection {
-  margin: 5% 0;
+	margin: 5% 0;
 
-  .projectsContainer {
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    // margin: 1rem 0 0 1.5rem;
-    padding: 5%;
-    background-color: $sectionBackdrop;
-    border-radius: 30px;
+	.projectsContainer {
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+		// margin: 1rem 0 0 1.5rem;
+		padding: 5%;
+		background-color: $sectionBackdrop;
+		border-radius: 30px;
+		border: 1px solid black;
 
-    .project-tiles {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-  }
+		.project-tiles {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+	}
 
-  //*Tablet Styling
-  @media (max-width: 1000px) {
-    width: 100%;
-    padding: 0;
-  }
+	//*Tablet Styling
+	@media (max-width: 1000px) {
+		width: 100%;
+		padding: 0;
+	}
 
-  //*Phone Styling
-  @media (max-width: 600px) {
-    margin: 0 auto;
-    padding: 0;
-  }
+	//*Phone Styling
+	@media (max-width: 600px) {
+		margin: 0 auto;
+		padding: 0;
+	}
 
-  //*Large Monitor Styling
-  @media (min-width: 1400px) {
-  }
+	//*Large Monitor Styling
+	@media (min-width: 1400px) {
+	}
 }
