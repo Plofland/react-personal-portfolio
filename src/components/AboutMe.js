@@ -19,6 +19,21 @@ export default function About() {
 						environments while learning web
 						development.
 					</p>
+					<p>
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore
+						et dolore magna aliqua. Quis
+						imperdiet massa tincidunt nunc
+						pulvinar sapien et. Gravida in
+						fermentum et sollicitudin ac orci.
+						Aliquet bibendum enim facilisis
+						gravida neque convallis a cras.
+						Blandit libero volutpat sed cras
+						ornare arcu dui vivamus arcu. Amet
+						mauris commodo quis imperdiet massa
+						tincidunt nunc pulvinar. 
+					</p>
 				</div>
 				<div id="image">
 					<img
