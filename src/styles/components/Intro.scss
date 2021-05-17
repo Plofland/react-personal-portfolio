@@ -1,9 +1,4 @@
-$primaryText: #0c0c0c;
-$background: #f9f3ed;
-$headerText: #101720;
-$navbar: #1a9682;
-$sectionBackdrop: #dabf92;
-$sectionTitle: #72a0cc;
+@import '../color.scss';
 
 .introSection {
   display: flex;
@@ -11,10 +6,6 @@ $sectionTitle: #72a0cc;
   margin: 0 0 5% 0;
 
   .intro {
-    .sectionTitle {
-      position: absolute;
-    }
-
     .introDescription {
       display: flex;
       flex-direction: column;
@@ -23,7 +14,7 @@ $sectionTitle: #72a0cc;
       background-color: $sectionBackdrop;
       height: 80%;
       border-radius: 30px;
-      margin: 5% 0 0 5%;
+      // margin: 5% 0 0 5%;
 
       p {
         text-align: center;

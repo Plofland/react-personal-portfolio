@@ -2,23 +2,21 @@
 
 > [Personal portfolio](https://personal-portfolio-cyan.vercel.app/) to house my projects, show off my skillset and let others know a little bit about me
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
-## General
+## General Site
 
-- [x] Add the introduction component from the figma file
 - [ ] Change the default favicon
-- [x] Update to new color palette based on gif in intro component
 - [ ] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) each section gets animated in as user scrolls (see figma design)
+- [ ] (STRETCH) customize the scrollbar to the design system color palette
 
-##Styling
+## General Styling
 
 - [x] get SASS styling files connected and running
-- [ ] get the color palette in one location, exporting it out to all the SCSS files to be used
+- [x] get the color palette in one location, exporting it out to all the SCSS files to be used
+- [ ] try offsetting the section titles in the App.scss instead of using margins in each component styling file
 
 ## Navbar
-- [x] make the navbar background transparent
-- [x] make the navbar background blur
-- [x] restructure app.js so that the navbar sits on top of all the content
+- [ ] Get the routes linking to their coresponding section
 - [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
 
 ## Intro
@@ -28,15 +26,18 @@
 ## Projects Section
 
 - [x] make the whole project sections responsive
+- [x] style according to the figma design
 - [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
 
 - [ ] add a more natural photo of me
+- [ ] style according to the figma design
 
 ## Contact Section
 
-- [ ] make the contact section animations fit in with the theme of the rest of the page
+- [ ] style according to the figma design
+- [ ] make the contact section animations fit in with the theme of the rest of the page (or just scrap the animated icons)
 - [x] make animated social links.
   - I could use this for [stacked icons](https://www.youtube.com/watch?v=AEb_NhCHo9E&list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx)
     <br/>

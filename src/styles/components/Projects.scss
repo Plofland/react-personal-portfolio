@@ -1,25 +1,24 @@
-$primaryText: #0c0c0c;
-$background: #f9f3ed;
-$headerText: #101720;
-$navbar: #1a9682;
-$sectionBackdrop: #dabf92;
-$sectionTitle: #72a0cc;
+@import '../color.scss';
 
-.projectsContainer {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  // margin: 5% 120px;
-  margin: 0 auto;
-  padding: 5%;
-  background-color: $sectionBackdrop;
-  border-radius: 30px;
 
-  .project-tiles {
+.projectsSection {
+  margin: 5% 0;
+
+  .projectsContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    width: 85%;
+    // margin: 1rem 0 0 1.5rem;
+    padding: 5%;
+    background-color: $sectionBackdrop;
+    border-radius: 30px;
+
+    .project-tiles {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
   }
 
   //*Tablet Styling

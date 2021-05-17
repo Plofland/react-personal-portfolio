@@ -5,19 +5,21 @@ import '../styles/components/Projects.scss';
 
 export default function Projects(props) {
   return (
-    <div className="projectsContainer">
+    <div className="projectsSection">
       <div className="sectionTitle">
         <h2>Projects</h2>
       </div>
-      <div className="project-tiles">
-        {projectsList.map((project) => {
-          return (
-            <ProjectCard
-              key={project.id}
-              project={project}
-            />
-          );
-        })}
+      <div className="projectsContainer">
+        <div className="project-tiles">
+          {projectsList.map((project) => {
+            return (
+              <ProjectCard
+                key={project.id}
+                project={project}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
