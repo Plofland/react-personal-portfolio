@@ -1,9 +1,4 @@
-$primaryText: #0c0c0c;
-$background: #F9F3ED;
-$headerText: #101720;
-$navbar: #1A9682;
-$sectionBackdrop: #DABF92;
-$sectionTitle: #72A0CC;
+@import '../color.scss';
 
 .contactMe {
 	display: flex;

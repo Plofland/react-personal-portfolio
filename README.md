@@ -12,7 +12,7 @@
 ## General Styling
 
 - [x] get SASS styling files connected and running
-- [ ] get the color palette in one location, exporting it out to all the SCSS files to be used
+- [x] get the color palette in one location, exporting it out to all the SCSS files to be used
 - [ ] try offsetting the section titles in the App.scss instead of using margins in each component styling file
 
 ## Navbar
@@ -26,7 +26,7 @@
 ## Projects Section
 
 - [x] make the whole project sections responsive
-- [ ] style according to the figma design
+- [x] style according to the figma design
 - [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
