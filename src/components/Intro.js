@@ -16,6 +16,13 @@ export default function Intro() {
             out websites.
           </p>
         </div>
+        <div className='callToActionContainer'>
+          <a href="https://calendly.com/plofland" target='_blank'>
+            <div id='button'>
+              <h2>Get in Touch</h2>
+            </div>
+          </a>
+        </div>
       </div>
       <div id="introImg">
         <img
