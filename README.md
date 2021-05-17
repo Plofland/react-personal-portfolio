@@ -32,7 +32,7 @@
 ## About Me Section
 
 - [ ] add a more natural photo of me
-- [ ] style according to the figma design
+- [x] style according to the figma design
 
 ## Contact Section
 
