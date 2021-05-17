@@ -20,7 +20,7 @@
 - [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
 
 ## Intro
-- [ ] Make a 'get in touch' button (call to action)
+- [x] Make a 'get in touch' button (call to action)
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Projects Section
