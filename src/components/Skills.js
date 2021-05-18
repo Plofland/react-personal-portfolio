@@ -8,7 +8,7 @@ export default function Skills() {
 				<h2>Skills</h2>
 			</div>
 			<div className="skills">
-				<div className="proficientSkillsSection">
+				<div className="skillsSubSection">
 					<h3>Proficient</h3>
 					<div>
 						<img
@@ -81,7 +81,7 @@ export default function Skills() {
 						/>
 					</div>
 				</div>
-				<div className="experiencedSkillsSection">
+				<div className="skillsSubSection">
 					<h3>Experienced</h3>
 					<div>
 						<img

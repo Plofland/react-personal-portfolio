@@ -2,23 +2,36 @@
 
 .skillsSection {
 	.skills {
+		padding: 2%;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		background-color: $sectionBackdrop;
 		border-radius: 30px;
-		.proficientSkillsSection {
-			h3 {
-				text-align: center;
-			}
-			img {
-				// width: 100px;
-				height: 30px;
-			}
+		text-align: center;
+		img {
+			height: 30px;
+			margin: 0 5px;
 		}
-		.experiencedSkillsSection {
-			h3 {
-				text-align: center;
-			}
+		h3 {
+			// border: 1px solid black;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 1rem;
+			width: 60%;
+			background: linear-gradient(
+				to left,
+				$sectionBackdrop,
+				$primaryText,
+				$sectionBackdrop 100%
+			);
+			background-position: 0 100%;
+			background-size: 100% 2px;
+			background-repeat: repeat-x;
+		}
+
+		.skillsSubSection {
+			padding: 2%;
 		}
 	}
 }
