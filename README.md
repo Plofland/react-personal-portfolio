@@ -6,6 +6,7 @@
 
 - [ ] Change the default favicon
 - [ ] get a new domain name such as "peter-lofland"
+- [ ] add a skills section
 - [ ] (STRETCH) each section gets animated in as user scrolls (see figma design)
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
 
@@ -13,10 +14,10 @@
 
 - [x] get SASS styling files connected and running
 - [x] get the color palette in one location, exporting it out to all the SCSS files to be used
-- [ ] try offsetting the section titles in the App.scss instead of using margins in each component styling file
+- [x] try offsetting the section titles in the App.scss instead of using margins in each component styling file
 
 ## Navbar
-- [ ] Get the routes linking to their coresponding section
+- [x] Get the routes linking to their coresponding section
 - [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
 
 ## Intro
@@ -36,8 +37,8 @@
 
 ## Contact Section
 
-- [ ] style according to the figma design
-- [ ] make the contact section animations fit in with the theme of the rest of the page (or just scrap the animated icons)
+- [x] style according to the figma design
+- [x] make the contact section animations fit in with the theme of the rest of the page (or just scrap the animated icons)
 - [x] make animated social links.
   - I could use this for [stacked icons](https://www.youtube.com/watch?v=AEb_NhCHo9E&list=PL2B-ghQCJHsq1oqe0AJ9QX4tuIl1OPSZx)
     <br/>
@@ -47,4 +48,4 @@
 
 
 ## Footer
-- [ ] add footer crediting Marina
+- [x] add footer crediting Marina

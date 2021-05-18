@@ -4,6 +4,7 @@ import React from 'react';
 //*Components
 import Nav from './components/Nav';
 import Home from './components/Home';
+import Footer from './components/Footer';
 // import AboutMe from './components/AboutMe';
 // import Projects from './components/Projects';
 // import ContactMe from './components/ContactMe';
@@ -30,6 +31,7 @@ function App() {
       </Switch> */}
       <Nav />
       <Home />
+      <Footer />
     </>
   );
 }
