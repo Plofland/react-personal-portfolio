@@ -4,7 +4,7 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General Site
 
-- [ ] Change the default favicon
+- [x] Change the default favicon
 - [ ] get a new domain name such as "peter-lofland"
 - [ ] add a skills section
 - [ ] (STRETCH) each section gets animated in as user scrolls (see figma design)
