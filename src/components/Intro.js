@@ -13,12 +13,16 @@ export default function Intro() {
           <p>Hello! I'm Peter.</p>
           <p>
             I love coding to solve problems and designing
-            out websites.
+            websites.
           </p>
         </div>
-        <div className='callToActionContainer'>
-          <a href="https://calendly.com/plofland" target='_blank'>
-            <div id='button'>
+        <div className="callToActionContainer">
+          <a
+            href="https://calendly.com/plofland"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div id="button">
               <h2>Get in Touch</h2>
             </div>
           </a>
