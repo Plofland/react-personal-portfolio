@@ -85,44 +85,48 @@ export default function Skills() {
 					<h3>Experienced</h3>
 					<div>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Python-61DAFB?logo=python&logoColor=3776AB&style=plastic"
+							alt="Python badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Materia%20UI-61DAFB?logo=html5&logoColor=0081CB&style=plastic"
+							alt="MateriaUI badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Ant%20Design-61DAFB?logo=html5&logoColor=0170FE&style=plastic"
+							alt="Ant Design badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Tailwind-61DAFB?logo=html5&logoColor=38B2AC&style=plastic"
+							alt="Tailwind CSS badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Netlify-61DAFB?logo=html5&logoColor=00C7B7&style=plastic"
+							alt="Netlify badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Vercel-61DAFB?logo=html5&logoColor=000000&style=plastic"
+							alt="Vercel badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-NextJS-61DAFB?logo=next-dot-js&logoColor=000000&style=plastic"
+							alt="NextJS badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Amplify-61DAFB?logo=amplify&logoColor=red&style=plastic"
+							alt="Amplify badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Mongo%20DB-61DAFB?logo=mongoDB&logoColor=47A248&style=plastic"
+							alt="Mongo DB badge"
 						/>
 						<img
-							src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=html5&logoColor=red&style=plastic"
-							alt="HTML badge"
+							src="https://img.shields.io/badge/-Photoshop-61DAFB?logo=adobe%20photoshop&logoColor=31A8FF&style=plastic"
+							alt="Adobe Photoshop badge"
+						/>
+						<img
+							src="https://img.shields.io/badge/-Lighthouse-61DAFB?logo=lighthouse&logoColor=F44B21&style=plastic"
+							alt="Lighthouse badge"
 						/>
 					</div>
 				</div>
