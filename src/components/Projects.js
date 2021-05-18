@@ -5,7 +5,7 @@ import '../styles/components/Projects.scss';
 
 export default function Projects(props) {
   return (
-    <div className="projectsSection">
+    <div className="projectsSection" id='projects'>
       <div className="sectionTitle">
         <h2>Projects</h2>
       </div>
