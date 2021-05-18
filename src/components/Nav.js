@@ -7,7 +7,7 @@ export default function nav() {
     <div className="navbar">
       <h1>Peter Lofland</h1>
       <div className="links">
-        <Link to="/projects" className="link">
+        {/* <Link to="/projects" className="link">
           Projects
         </Link>
         <Link to="/aboutMe" className="link">
@@ -15,7 +15,16 @@ export default function nav() {
         </Link>
         <Link to="/contact" className="link">
           Contact
-        </Link>
+        </Link> */}
+        <a href="#projects" className="link">
+          Projects
+        </a>
+        <a href="#aboutMe" className="link">
+          About Me
+        </a>
+        <a href="#contact" className="link">
+          Contact
+        </a>
       </div>
     </div>
   );
