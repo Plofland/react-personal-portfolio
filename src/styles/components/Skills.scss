@@ -2,11 +2,22 @@
 
 .skillsSection {
 	.skills {
+		display: flex;
+		flex-direction: column;
 		background-color: $sectionBackdrop;
 		border-radius: 30px;
-		.proficientSkills {
+		.proficientSkillsSection {
+			h3 {
+				text-align: center;
+			}
+			img {
+				width: 100px;
+			}
 		}
-		.experiencedSkills {
+		.experiencedSkillsSection {
+			h3 {
+				text-align: center;
+			}
 		}
 	}
 }
