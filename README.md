@@ -24,6 +24,7 @@
 
 ## Intro
 - [x] redesign intro to include call to action button
+- [x] make the button more 3D so that it stands out as actionable
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Skills
