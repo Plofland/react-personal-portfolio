@@ -41,6 +41,8 @@
 					background-color: $actionItem;
 					background-image: linear-gradient(
 						to top,
+						rgba(0, 0, 0, 0.2),
+						$actionItem,
 						$actionItem,
 						rgba(255, 255, 255, 0.4)
 					);
@@ -50,7 +52,8 @@
 					border: 1px solid $actionItem;
 					text-shadow: 0 1px 1px
 						rgba(0, 0, 0, 0.3);
-					box-shadow: rgba(0, 0, 0, 0.3) -1px -1px 3px;
+					box-shadow: rgba(0, 0, 0, 0.3) -1px -1px
+						3px;
 
 					transition: 0.3s ease-in-out;
 				}
