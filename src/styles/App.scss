@@ -162,6 +162,10 @@ h5 {
 }
 
 //Section titles
+.section{
+  margin: 5% auto;
+}
+
 .sectionTitle {
 	display: flex;
 	background-color: $sectionTitle;
@@ -170,4 +174,5 @@ h5 {
 	padding: 0.5% 1%;
 	width: max-content;
 	position: absolute;
+	box-shadow: $primaryText 1px 1px 3px;
 }

@@ -5,29 +5,27 @@
 ## General Site
 
 - [ ] get a new domain name such as "peter-lofland"
-- [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
 
 ## General Styling
 
 - [x] try offsetting the section titles in the App.scss instead of using margins in each component styling file
-- [ ] evenly space out the sections
+- [x] make my name actionable
+- [x] evenly space out the sections
 - [ ] Responsive design for macbook (1440 x 900)
 - [ ] Responsive design for tablet (834 x 1194)
 - [ ] responsive mobile for mobile (375 x 812)
-
-## Navbar
-- [x] Get the routes linking to their coresponding section
-- [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
-- [ ] get rid of the navbar, it is unnecessary
+- [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
+- [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
 ## Intro
 - [x] redesign intro to include call to action button
+- [x] make the button more 3D so that it stands out as actionable
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Skills
- - [x] create a skills section
- - [x] populate the skill section with [shield badges](https://shields.io/)
+
+ - [ ] make a variable for all the shield backgrounds
 
 ## Projects Section
 

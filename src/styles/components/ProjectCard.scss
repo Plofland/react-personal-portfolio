@@ -17,7 +17,6 @@
 		box-shadow:
       /* top */ $actionItem 0px -3px 4px,
 			/* right */ $actionItem 3px 0px 4px,
-			/* bottom */ $actionItem 0px 3px 4px,
 			/* left */ $actionItem -3px 0px 4px;
 		transition: 1s ease-in-out;
 	}
@@ -30,7 +29,12 @@
 	.project-title {
 		display: flex;
 		background-color: $actionItem;
-		color: black;
+		background-image: linear-gradient(
+			to top,
+			$actionItem,
+			rgba(255, 255, 255, 0.4)
+		);
+		color: $primaryText;
 		text-align: center;
 		justify-content: center;
 		align-items: center;
@@ -40,8 +44,7 @@
 	}
 
 	.code {
-		color: $actionItem;
-		background-color: $actionItem;
+		opacity: 0;
 		transition: 0.4s ease-in-out;
 	}
 
@@ -51,7 +54,8 @@
 	}
 
 	.project-tile:hover .code {
-		color: rgba(0, 0, 0, 75%);
+		color: $primaryText;
+		opacity: 1;
 	}
 
 	//*Tablet Styling

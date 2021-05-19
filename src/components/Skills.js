@@ -3,11 +3,11 @@ import '../styles/components/Skills.scss';
 
 export default function Skills() {
 	return (
-		<div className="skillsSection">
+		<div className="skills section">
 			<div className="sectionTitle">
 				<h2>Skills</h2>
 			</div>
-			<div className="skills">
+			<div className="skillsList">
 				<div className="skillsSubSection">
 					<h3>Proficient</h3>
 					<div>
