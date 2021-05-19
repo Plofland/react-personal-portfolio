@@ -11,26 +11,15 @@
 		flex-direction: column;
 		border-radius: 5px;
 		text-decoration: none;
-		box-shadow: 
-      /* top */ rgba(255, 255, 255, 0.1)
-				0px -6px 10px,
-			/* right */ rgba(255, 255, 255, 0.1) 6px 0px
-				10px,
-			/* bottom */ rgba(255, 255, 255, 0.1) 0px 6px
-				10px,
-			/* left */ rgba(255, 255, 255, 0.1) -6px 0px 10px;
 	}
 
 	.project-tile:hover {
 		box-shadow:
-      /* top */ rgba(255, 255, 255, 0.25)
-				0px -6px 20px,
-			/* right */ rgba(255, 255, 255, 0.25) 6px 0px
-				20px,
-			/* bottom */ rgba(255, 255, 255, 0.25) 0px 6px
-				20px,
-			/* left */ rgba(255, 255, 255, 0.25) -6px 0px 20px;
-		transition: 0.4s ease-in-out;
+      /* top */ $actionItem 0px -3px 4px,
+			/* right */ $actionItem 3px 0px 4px,
+			/* bottom */ $actionItem 0px 3px 4px,
+			/* left */ $actionItem -3px 0px 4px;
+		transition: 1s ease-in-out;
 	}
 
 	.project-img {

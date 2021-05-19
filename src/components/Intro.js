@@ -5,10 +5,10 @@ import coder from '../assets/python-2.gif';
 export default function Intro() {
 	return (
 		<div className="introSection">
+			<div className="sectionTitle">
+				<h2>Full Stack Web Developer</h2>
+			</div>
 			<div className="intro">
-				<div className="sectionTitle">
-					<h2>Full Stack Web Developer</h2>
-				</div>
 				<div className="introDescription">
 					<p>Hello! I'm Peter.</p>
 					<p>
@@ -16,18 +16,17 @@ export default function Intro() {
 						designing websites.
 					</p>
 				</div>
-					<div className="callToActionContainer">
-						<a
-							href="https://calendly.com/plofland"
-							target="_blank"
-							rel="noreferrer"
-							className="callToActionContainer"
-						>
-							<div id="button">
-								<h2>Get in Touch</h2>
-							</div>
-						</a>
-					</div>
+				<div className="callToActionContainer">
+					<a
+						href="https://calendly.com/plofland"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<div id="button">
+							<h2>Get in Touch</h2>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div id="introImg">
 				<img

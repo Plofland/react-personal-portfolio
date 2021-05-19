@@ -2,20 +2,24 @@
 
 .introSection {
 	display: flex;
-	justify-content: center;
 	margin: 0 0 5% 0;
 
 	.intro {
+		// border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: $sectionBackdrop;
+		height: auto;
+		border-radius: 30px;
 		.introDescription {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: space-evenly;
+			height: 85%;
 			// position: relative;
-			background-color: $sectionBackdrop;
-			height: 80%;
-			border-radius: 30px;
-			padding: 2%;
+			padding: 0 2%;
 			border: 1px solid black;
 
 			p {
@@ -24,12 +28,23 @@
 			}
 		}
 		.callToActionContainer {
-			position: relative;
-			border: 1px solid black;
+			height: 15%;
+			// position: relative;
+			border: 1px solid yellow;
 			// bottom: 0;
+			display: flex;
+			flex-direction: row-reverse;
+			box-sizing: border-box;
+			// justify-content: flex-end;
+			align-items: flex-end;
 			a {
-				border: 1px solid green;
+				// border: 1px solid green;
 				text-decoration: none;
+				// display: inline-flex;
+				// flex-wrap: nowrap;
+				// width: max-content;
+				// box-sizing: border-box;
+				// width: max-content;
 				// display: flex;
 				// display: inlin-flex;
 				// flex-direction: column;
@@ -45,20 +60,27 @@
 				// border-radius: 30px 0 30px 0;
 
 				#button {
-					position: relative;
+					// position: absolute;
+					// display: flex;
 					// display: inline-flex;
+					// flex-wrap: nowrap;
 					// left: 0;
 					// top: 0;
+					// right: 0;
 					// display: inline-flex;
 					// justify-content: flex-end;
 					// align-items: flex-end;
+					// height: 1rem;
+					float: right;
 					border-radius: 30px 0 30px 0;
 					background-color: $actionItem;
 					color: $primaryText;
-					width: max-content;
+					white-space: nowrap;
+					// width: max-content;
+					// box-sizing: border-box;
 					// text-align: center;
-					padding: 1.5% 2%;
-					border: 1px solid $primaryText;
+					padding: 1.5% 3%;
+					border: 2px solid $primaryText;
 					transition: 0.3s ease-in-out;
 					// margin-right: 0;
 					// margin-bottom: 0;
@@ -66,6 +88,7 @@
 
 				#button:hover {
 					transform: scale(1.2);
+					transform-origin: right bottom;
 					transition: 0.3s ease-in-out;
 				}
 				// .callToActionContainer {
