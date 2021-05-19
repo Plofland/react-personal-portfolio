@@ -24,7 +24,7 @@
 
 ## Skills
  - [x] create a skills section
- - [ ] populate the skill section with [shield badges](https://shields.io/)
+ - [x] populate the skill section with [shield badges](https://shields.io/)
 
 ## Projects Section
 
