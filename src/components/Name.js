@@ -5,9 +5,15 @@ import '../styles/components/Name.scss';
 export default function Name() {
 	return (
 		<div className="headerSection">
-			<div id="name">
-				<h1>Peter Lofland</h1>
-			</div>
+			<a
+				href="https://www.linkedin.com/in/peter-lofland/"
+				target="_blank"
+				rel="noreferrer"
+			>
+					<h1>Peter Lofland</h1>
+			</a>
+
+      //*Leftover code from when this was a navbar, keeping just in case
 			{/* <div className="links"> */}
 			{/* <Link to="/projects" className="link">
           Projects
