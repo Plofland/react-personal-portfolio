@@ -162,6 +162,10 @@ h5 {
 }
 
 //Section titles
+.section{
+  margin: 5% auto;
+}
+
 .sectionTitle {
 	display: flex;
 	background-color: $sectionTitle;

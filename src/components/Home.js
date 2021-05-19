@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div id="homeContent">
       <Intro />
-      <Skills/>
+      <Skills />
       <Projects />
       <AboutMe />
       <Contact />
