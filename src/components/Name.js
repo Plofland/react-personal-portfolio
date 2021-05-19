@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import '../styles/components/Nav.scss';
+import '../styles/components/Name.scss';
 
-export default function nav() {
+export default function Name() {
 	return (
 		<div className="headerSection">
 			<div id="name">

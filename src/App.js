@@ -2,7 +2,7 @@ import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
 
 //*Components
-import Nav from './components/Nav';
+import Name from './components/Name';
 import Home from './components/Home';
 import Footer from './components/Footer';
 // import AboutMe from './components/AboutMe';
@@ -29,7 +29,7 @@ function App() {
         <Route path="/contact" component={ContactMe} />
         <Route path="/" component={App} />
       </Switch> */}
-      <Nav />
+      <Name />
       <Home />
       <Footer />
     </>

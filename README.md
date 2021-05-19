@@ -11,6 +11,7 @@
 ## General Styling
 
 - [x] try offsetting the section titles in the App.scss instead of using margins in each component styling file
+- [ ] make my name actionable
 - [ ] evenly space out the sections
 - [ ] Responsive design for macbook (1440 x 900)
 - [ ] Responsive design for tablet (834 x 1194)
@@ -19,7 +20,7 @@
 ## Navbar
 - [x] Get the routes linking to their coresponding section
 - [ ] (STRETCH) Scroll indicator under the navbar that shows the progress of the scroll through the site [W3: How to scroll indicator](https://www.w3schools.com/howto/howto_js_scroll_indicator.asp)
-- [ ] get rid of the navbar, it is unnecessary
+- [x] get rid of the navbar, it is unnecessary
 
 ## Intro
 - [x] redesign intro to include call to action button
@@ -28,6 +29,7 @@
 ## Skills
  - [x] create a skills section
  - [x] populate the skill section with [shield badges](https://shields.io/)
+ - [ ] make a variable for all the shield backgrounds
 
 ## Projects Section
 
