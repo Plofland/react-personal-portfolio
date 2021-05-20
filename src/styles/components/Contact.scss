@@ -2,7 +2,7 @@
 
 .contact {
 	width: 100%;
-	
+
 	.socialIcons {
 		display: flex;
 		flex-direction: row;
@@ -10,6 +10,7 @@
 		background-color: $sectionBackdrop;
 		border-radius: 30px;
 		padding: 2%;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
 
 		ul {
 			position: relative;
