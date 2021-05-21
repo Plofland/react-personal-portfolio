@@ -12,9 +12,10 @@ export default function Intro() {
 				<div className="introDescription">
 					<p>Hello! I'm Peter.</p>
 					<p>
-						I love coding to solve problems and
+						I have a passion for coding to solve problems and
 						designing websites.
 					</p>
+					<p>I'd love to be a part of your team and help build your idea or project into a real world product.</p>
 				</div>
 				<div className="callToActionContainer">
 					<a
