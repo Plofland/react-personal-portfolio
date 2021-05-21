@@ -70,6 +70,18 @@
   }
 }
 
+//Macbook Styling
+@media (max-width:1440px){
+  .skills {
+    .skillsList {
+      img {
+        height: 26px;
+      }
+    }
+  }
+}
+
+//*Tablet Styling
 @media (max-width: 850px) {
   .skills {
     .skillsList {
