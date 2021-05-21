@@ -4,10 +4,11 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General Site
 
-- [ ] get a new domain name such as "peter-lofland"
+- [x] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
 - [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
 - [ ] (At very end) delete all routes and links leftover from navbar
+- [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 
 ## General Styling
 
