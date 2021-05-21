@@ -1,10 +1,12 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import '../styles/components/Name.scss';
+import '../styles/components/Header.scss';
+import monstera from '../assets/monsteraBackground.jpg'
 
-export default function Name() {
+export default function Header() {
 	return (
 		<div className="headerSection">
+      <img src={monstera} alt='monstera plant banner'/>
 			<a
 				href="https://www.linkedin.com/in/peter-lofland/"
 				target="_blank"
