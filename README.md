@@ -7,12 +7,10 @@
 - [ ] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
 - [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
+- [ ] (At very end) delete all routes and links leftover from navbar
 
 ## General Styling
 
-- [x] try offsetting the section titles in the App.scss instead of using margins in each component styling file
-- [x] make my name actionable
-- [x] evenly space out the sections
 - [x] Responsive design for large monitor (1440+)
 - [x] Responsive design for macbook (1440 x 900)
 - [ ] Responsive design for small window (1200 x 900)
@@ -22,8 +20,8 @@
 - [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
 ## Intro
-- [x] redesign intro to include call to action button
-- [x] make the button more 3D so that it stands out as actionable
+
+- [ ] something is still off about the call to action button, think about what to do with it
 - [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Skills
