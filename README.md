@@ -12,7 +12,8 @@
 - [x] try offsetting the section titles in the App.scss instead of using margins in each component styling file
 - [x] make my name actionable
 - [x] evenly space out the sections
-- [ ] Responsive design for macbook (1440 x 900)
+- [x] Responsive design for large monitor (1440+)
+- [x] Responsive design for macbook (1440 x 900)
 - [ ] Responsive design for small window (1200 x 900)
 - [x] Responsive design for tablet (834 x 1194)
 - [ ] responsive mobile for mobile (375 x 812)
