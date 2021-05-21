@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -103,142 +103,168 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 //*BEGIN STYLING Destop first (1440px)
 //Main App
 body {
-  background-color: $background;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16pt;
-  font-weight: lighter;
-  color: $primaryText;
-  display: flex;
-  align-items: center;
-  scroll-behavior: smooth;
+	background-color: $background;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16pt;
+	font-weight: lighter;
+	color: $primaryText;
+	display: flex;
+	align-items: center;
+	scroll-behavior: smooth;
 }
 
 //Font Defaults
 h1 {
-  font-size: 40pt;
-  font-weight: bold;
+	font-size: 40pt;
+	font-weight: bold;
 }
 h2 {
-  font-size: 28pt;
-  font-weight: medium;
+	font-size: 28pt;
+	font-weight: medium;
 }
 h3 {
-  font-size: 24pt;
+	font-size: 24pt;
 }
 h4 {
-  font-size: 20pt;
+	font-size: 20pt;
 }
 h5 {
-  font-size: 18pt;
+	font-size: 18pt;
 }
 
 //Section titles
 .section {
-  margin: 7% auto;
+	margin: 7% auto;
 }
 
 .sectionTitle {
-  display: flex;
-  background-color: $sectionTitle;
-  // This kinda looks cool, bad for reading text but I could use this idea for later
-  // background-image: url('../assets/monsteraBackground.jpg');
-  border-radius: 30px 0 30px 0;
-  border: 1px solid $primaryText;
-  padding: 0.5% 1%;
-  width: max-content;
-  position: absolute;
-  box-shadow: $primaryText 1px 1px 3px;
+	display: flex;
+	background-color: $sectionTitle;
+	// This kinda looks cool, bad for reading text but I could use this idea for later
+	// background-image: url('../assets/monsteraBackground.jpg');
+	border-radius: 30px 0 30px 0;
+	border: 1px solid $primaryText;
+	padding: 0.5% 1%;
+	width: max-content;
+	position: absolute;
+	box-shadow: $primaryText 1px 1px 3px;
 }
 
 //*Scrollbar Effects
 ::-webkit-scrollbar {
-  width: 0px;
+	width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $headerName;
-  border-radius: 4px;
+	background: $headerName;
+	border-radius: 4px;
 }
 
 //!Responsive Stylings
 
 //*Large Monitor styling
 @media (min-width: 1441px) {
-  h1 {
-    font-size: 34pt;
-  }
-  h2 {
-    font-size: 26pt;
-  }
-  h3 {
-    font-size: 22pt;
-  }
-  h4 {
-    font-size: 16pt;
-  }
-  h5 {
-    font-size: 16pt;
-  }
+	h1 {
+		font-size: 34pt;
+	}
+	h2 {
+		font-size: 26pt;
+	}
+	h3 {
+		font-size: 22pt;
+	}
+	h4 {
+		font-size: 16pt;
+	}
+	h5 {
+		font-size: 16pt;
+	}
 
-  .sectionTitle {
-    padding: 0.25% 1%;
-  }
+	.sectionTitle {
+		padding: 0.25% 1%;
+	}
+}
+
+//Macbook Styling
+@media (max-width: 1440px) {
+	body {
+		font-size: 14pt;
+	}
+	h1 {
+		font-size: 28pt;
+	}
+	h2 {
+		font-size: 22pt;
+	}
+	h3 {
+		font-size: 18pt;
+	}
+	h4 {
+		font-size: 14pt;
+	}
+	h5 {
+		font-size: 12pt;
+	}
+
+	.sectionTitle {
+		padding: 0.5% 1.25%;
+	}
 }
 
 //*Tablet Styling
 @media (max-width: 850px) {
-  body {
-    font-size: 12pt;
-  }
+	body {
+		font-size: 12pt;
+	}
 
-  //Font Defaults Tablet
-  h1 {
-    font-size: 20pt;
-  }
+	//Font Defaults Tablet
+	h1 {
+		font-size: 20pt;
+	}
 
-  h2 {
-    font-size: 16pt;
-  }
-  h3 {
-    font-size: 14pt;
-  }
-  h4 {
-    font-size: 12pt;
-  }
-  h5 {
-    font-size: 10pt;
-  }
+	h2 {
+		font-size: 16pt;
+	}
+	h3 {
+		font-size: 14pt;
+	}
+	h4 {
+		font-size: 12pt;
+	}
+	h5 {
+		font-size: 10pt;
+	}
 
-  .sectionTitle {
-    padding: 1% 2%;
-    box-shadow: $primaryText 0.5px 0.5px 2px;
-  }
+	.sectionTitle {
+		padding: 1% 2%;
+		box-shadow: $primaryText 0.5px 0.5px 2px;
+	}
 }
