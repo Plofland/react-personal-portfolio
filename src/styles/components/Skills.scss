@@ -9,12 +9,12 @@
 		background-color: $sectionBackdrop;
 		border-radius: 30px;
 		text-align: center;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
 		img {
 			height: 30px;
 			margin: 0 5px;
 		}
 		h3 {
-			// border: 1px solid black;
 			text-align: center;
 			margin: 0 auto;
 			margin-bottom: 1rem;
@@ -32,6 +32,20 @@
 
 		.skillsSubSection {
 			padding: 2%;
+		}
+	}
+}
+
+@media (max-width: 850px) {
+	.skills {
+		.skillsList {
+			img {
+				height: 20px;
+				margin: 0 5px;
+			}
+			h3 {
+				padding: 1%;
+			}
 		}
 	}
 }

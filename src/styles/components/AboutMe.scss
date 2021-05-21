@@ -9,6 +9,7 @@
 		background-color: $sectionBackdrop;
 		border-radius: 30px;
 		padding: 2%;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
 
 		.selfDescription {
 			display: flex;
@@ -27,6 +28,23 @@
 				height: 100%;
 				border-radius: 30px;
 				box-shadow: 4px 8px $sectionTitle;
+			}
+		}
+	}
+}
+
+//*Tablet Styling
+@media (max-width: 850px) {
+	.aboutMe {
+
+		.AboutMeInner {
+			padding: 5% 2%;
+
+			#image {
+				height: 60vh;
+				img {
+					box-shadow: 2px 4px $sectionTitle;
+				}
 			}
 		}
 	}

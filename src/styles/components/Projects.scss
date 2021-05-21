@@ -8,6 +8,7 @@
     padding: 5%;
     background-color: $sectionBackdrop;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
 
     .project-tiles {
       display: flex;
@@ -17,19 +18,18 @@
     }
   }
 
-  //*Tablet Styling
-  @media (max-width: 1000px) {
-    width: 100%;
-    padding: 0;
-  }
+  
+}
 
-  //*Phone Styling
-  @media (max-width: 600px) {
-    margin: 0 auto;
-    padding: 0;
-  }
+//*Tablet Styling
+// No need for tablet styling
 
-  //*Large Monitor Styling
-  @media (min-width: 1400px) {
-  }
+//*Large Monitor Styling
+@media (min-width: 1400px) {
+}
+
+//*Phone Styling
+@media (max-width: 600px) {
+  margin: 0 auto;
+  padding: 0;
 }
