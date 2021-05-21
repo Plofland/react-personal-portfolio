@@ -176,15 +176,36 @@ h5 {
   box-shadow: $primaryText 1px 1px 3px;
 }
 
+//!Scroll Thumb animation not working
+//*Scrollbar Effects
 ::-webkit-scrollbar {
   width: 14px;
   opacity: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient($headerName, $actionItem);
+  background: $headerName;
   border-radius: 4px;
+  // background: linear-gradient($headerName, $headerName, $actionItem);
+  // animation: animate 1s linear infinite;
+  // -webkit-animation: animate 1s linear infinite;
+  // animation: animate 1s linear infinite;
+  // -o-animation: animate 1s linear infinite;
+  // -ms-animation: animate 1s linear infinite;
+  // -moz-animation: animate 1s linear infinite;
 }
+
+// @keyframes animate {
+//   0%,
+//   100% {
+//     filter: hue-rotate(0deg);
+//   }
+//   50% {
+//     filter: hue-rotate(360deg);
+//   }
+// }
+
+//!Responsive Stylings
 
 //*Large Monitor styling
 @media (min-width: 1441px) {

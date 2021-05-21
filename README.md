@@ -6,6 +6,7 @@
 
 - [ ] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
+- [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
 
 ## General Styling
 
