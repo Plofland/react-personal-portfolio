@@ -34,7 +34,6 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: #000;
 			transition: 0.5s;
 			display: flex !important;
 			align-items: center;
@@ -42,46 +41,48 @@
 			color: #fff;
 			font-size: 3rem !important;
 		}
+		@media (min-width: 1000px) {
+			//*Icon Stack Hover State
+			ul li:hover span {
+				box-shadow: 1px 1px 1px 1px
+					rgba(0, 0, 0, 0.2);
+			}
 
-		//*Icon Stack Hover State
-		ul li:hover span {
-			box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-		}
-
-		ul li:hover span:nth-child(6) {
-			transform: scale(1.2);
-			opacity: 1;
-		}
-		ul li:hover span:nth-child(5) {
-			transition-delay: 0.2s;
-			transform: scale(1.2) rotate(45deg);
-			background-color: #fff;
-			border-radius: 1px;
-			opacity: 1;
-		}
-		ul li:hover span:nth-child(4) {
-			transform: translate(20px, -20px);
-			transition-delay: 0.05s;
-			border-radius: 40px;
-			opacity: 0.6;
-		}
-		ul li:hover span:nth-child(3) {
-			transform: translate(-20px, 20px);
-			border-radius: 40px;
-			transition-delay: 0.05s;
-			opacity: 0.6;
-		}
-		ul li:hover span:nth-child(2) {
-			transform: translate(-20px, -20px);
-			border-radius: 40px;
-			transition-delay: 0.05s;
-			opacity: 0.6;
-		}
-		ul li:hover span:nth-child(1) {
-			transform: translate(20px, 20px);
-			border-radius: 40px;
-			transition-delay: 0.05s;
-			opacity: 0.6;
+			ul li:hover span:nth-child(6) {
+				transform: scale(1.2);
+				opacity: 1;
+			}
+			ul li:hover span:nth-child(5) {
+				transition-delay: 0.2s;
+				transform: scale(1.2) rotate(45deg);
+				background-color: #fff;
+				border-radius: 1px;
+				opacity: 1;
+			}
+			ul li:hover span:nth-child(4) {
+				transform: translate(20px, -20px);
+				transition-delay: 0.05s;
+				border-radius: 40px;
+				opacity: 0.6;
+			}
+			ul li:hover span:nth-child(3) {
+				transform: translate(-20px, 20px);
+				border-radius: 40px;
+				transition-delay: 0.05s;
+				opacity: 0.6;
+			}
+			ul li:hover span:nth-child(2) {
+				transform: translate(-20px, -20px);
+				border-radius: 40px;
+				transition-delay: 0.05s;
+				opacity: 0.6;
+			}
+			ul li:hover span:nth-child(1) {
+				transform: translate(20px, 20px);
+				border-radius: 40px;
+				transition-delay: 0.05s;
+				opacity: 0.6;
+			}
 		}
 
 		//*Icon Stack Colors
@@ -99,6 +100,22 @@
 		}
 		ul li:nth-child(5) span {
 			background: #3f729b;
+		}
+	}
+}
+
+//*Tablet Styling
+@media (max-width: 850px) {
+	.contact {
+		width: 100%;
+
+		.socialIcons {
+			padding: 8% 6% 3% 6%;
+
+			ul li span {
+				box-shadow: 1px 1px 1px 1px
+					rgba($primaryText, 0.1);
+			}
 		}
 	}
 }

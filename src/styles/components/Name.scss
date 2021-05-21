@@ -10,8 +10,8 @@
 		align-items: center;
 		width: fit-content;
 		padding: 0.2% 1%;
-		background-color: rgba($headerName, 0.75);
-		backdrop-filter: blur(3px);
+		background-color: rgba($headerName, 0.55);
+		backdrop-filter: blur(2px);
 		position: fixed;
 		z-index: 999;
 		border-bottom-left-radius: 30px;
@@ -36,4 +36,13 @@
 	// 		transition: 0.2s ease-in-out;
 	// 	}
 	// }
+}
+
+//Tablet Styling 
+@media (max-width: 850px) {
+	.headerSection {
+		a {
+			padding: 0.6% 2%;
+		}
+	}
 }

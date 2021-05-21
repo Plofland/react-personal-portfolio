@@ -32,3 +32,20 @@
 		}
 	}
 }
+
+//*Tablet Styling
+@media (max-width: 850px) {
+	.aboutMe {
+
+		.AboutMeInner {
+			padding: 5% 2%;
+
+			#image {
+				height: 60vh;
+				img {
+					box-shadow: 2px 4px $sectionTitle;
+				}
+			}
+		}
+	}
+}

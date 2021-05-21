@@ -57,12 +57,13 @@
 
 					transition: 0.3s ease-in-out;
 				}
-
-				#button:hover {
-					transform: scale(1.1);
-					transform-origin: right bottom;
-					transition: 0.3s ease-in-out;
-					border-radius: 26px 0 26px 0;
+				@media (min-width: 1000px) {
+					#button:hover {
+						transform: scale(1.1);
+						transform-origin: right bottom;
+						transition: 0.3s ease-in-out;
+						border-radius: 26px 0 26px 0;
+					}
 				}
 			}
 		}
@@ -72,6 +73,21 @@
 		img {
 			width: 42vw;
 			opacity: 0.75;
+		}
+	}
+}
+
+//Tablet Styling
+@media (max-width: 850px) {
+	.introSection {
+		.intro {
+			.callToActionContainer {
+				a {
+					#button {
+						padding: 4% 15%;
+					}
+				}
+			}
 		}
 	}
 }

@@ -18,19 +18,18 @@
     }
   }
 
-  //*Tablet Styling
-  @media (max-width: 1000px) {
-    width: 100%;
-    padding: 0;
-  }
+  
+}
 
-  //*Phone Styling
-  @media (max-width: 600px) {
-    margin: 0 auto;
-    padding: 0;
-  }
+//*Tablet Styling
+// No need for tablet styling
 
-  //*Large Monitor Styling
-  @media (min-width: 1400px) {
-  }
+//*Large Monitor Styling
+@media (min-width: 1400px) {
+}
+
+//*Phone Styling
+@media (max-width: 600px) {
+  margin: 0 auto;
+  padding: 0;
 }

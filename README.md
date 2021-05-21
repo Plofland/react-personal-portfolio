@@ -13,7 +13,8 @@
 - [x] make my name actionable
 - [x] evenly space out the sections
 - [ ] Responsive design for macbook (1440 x 900)
-- [ ] Responsive design for tablet (834 x 1194)
+- [ ] Responsive design for small window (1200 x 900)
+- [x] Responsive design for tablet (834 x 1194)
 - [ ] responsive mobile for mobile (375 x 812)
 - [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 - [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
