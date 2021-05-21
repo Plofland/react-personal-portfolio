@@ -192,9 +192,6 @@ h5 {
 
 //*Large Monitor styling
 @media (min-width: 1441px) {
-	body {
-		font-size: 14pt;
-	}
 	h1 {
 		font-size: 34pt;
 	}
@@ -218,6 +215,9 @@ h5 {
 
 //Macbook Styling
 @media (max-width: 1440px) {
+	body {
+		font-size: 14pt;
+	}
 	h1 {
 		font-size: 28pt;
 	}
