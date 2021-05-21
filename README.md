@@ -8,7 +8,7 @@
 - [x] (STRETCH) customize the scrollbar to the design system color palette
 - [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 - [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
-- [ ] (At very end) delete all routes and links leftover from navbar
+- [x] (At very end) delete all routes and links leftover from navbar
 
 ## General Styling
 
