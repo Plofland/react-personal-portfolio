@@ -1,0 +1,34 @@
+@import '../color.scss';
+
+.headerSection {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  img {
+    margin-top: -80px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0.2% 1%;
+    background-color: rgba($headerName, 0.55);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 999;
+    border-bottom-left-radius: 30px;
+    text-decoration: none;
+    color: $primaryText;
+  }
+}
+
+//Tablet Styling
+@media (max-width: 850px) {
+  .headerSection {
+    a {
+      padding: 0.6% 2%;
+    }
+  }
+}
