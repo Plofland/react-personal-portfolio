@@ -1,51 +1,85 @@
 @import '../color';
 
 .skills {
-	.skillsList {
-		padding: 2%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: $sectionBackdrop;
-		border-radius: 30px;
-		text-align: center;
-		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
-		img {
-			height: 30px;
-			margin: 0 5px;
-		}
-		h3 {
-			text-align: center;
-			margin: 0 auto;
-			margin-bottom: 1rem;
-			width: 60%;
-			background: linear-gradient(
-				to left,
-				$sectionBackdrop,
-				$primaryText,
-				$sectionBackdrop 100%
-			);
-			background-position: 0 100%;
-			background-size: 100% 2px;
-			background-repeat: repeat-x;
-		}
+  .skillsList {
+    // border: 1px solid black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $sectionBackdrop;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
+		//? start here for animating in skills
+    animation: 1s ease-out 0s 1 slideInFromRight;
+		//?
+    img {
+      height: 30px;
+      margin: 0 5px;
+    }
+    h3 {
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 60%;
+      background: linear-gradient(
+        to left,
+        $sectionBackdrop,
+        $primaryText,
+        $sectionBackdrop 100%
+      );
+      background-position: 0 100%;
+      background-size: 100% 2px;
+      background-repeat: repeat-x;
+    }
 
-		.skillsSubSection {
-			padding: 2%;
-		}
+    .skillsSubSection {
+      padding: 2%;
+    }
+  }
+}
+
+// @keyframes slideInFromRight {
+//   0% {
+//     transform: translateX(600%);
+//     opacity: 0;
+//   }
+//   95% {
+//     transform: translateX(2%);
+//   }
+//   100% {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+
+//*Animate on Scroll
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
 	}
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
+
 @media (max-width: 850px) {
-	.skills {
-		.skillsList {
-			img {
-				height: 20px;
-				margin: 0 5px;
-			}
-			h3 {
-				padding: 1%;
-			}
-		}
-	}
+  .skills {
+    .skillsList {
+      img {
+        height: 20px;
+        margin: 0 5px;
+      }
+      h3 {
+        padding: 1%;
+      }
+    }
+  }
 }

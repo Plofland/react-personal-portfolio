@@ -139,6 +139,8 @@ body {
   display: flex;
   align-items: center;
   scroll-behavior: smooth;
+  background-image: url('../assets/monsteraBackground.jpg');
+  background-repeat: no-repeat;
 }
 
 //Font Defaults
@@ -168,6 +170,8 @@ h5 {
 .sectionTitle {
   display: flex;
   background-color: $sectionTitle;
+  // This kinda looks cool, bad for reading text but I could use this idea for later
+  // background-image: url('../assets/monsteraBackground.jpg');
   border-radius: 30px 0 30px 0;
   border: 1px solid $primaryText;
   padding: 0.5% 1%;
@@ -176,6 +180,17 @@ h5 {
   box-shadow: $primaryText 1px 1px 3px;
 }
 
+//*Scrollbar Effects
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $headerName;
+  border-radius: 4px;
+}
+
+//!Responsive Stylings
 
 //*Large Monitor styling
 @media (min-width: 1441px) {
@@ -200,12 +215,11 @@ h5 {
   }
 }
 
-
 //*Tablet Styling
 @media (max-width: 850px) {
-	body {
-		font-size: 12pt;
-	}
+  body {
+    font-size: 12pt;
+  }
 
 	//Font Defaults Tablet
 	h1 {

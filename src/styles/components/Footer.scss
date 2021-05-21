@@ -1,23 +1,30 @@
 @import '../color';
 
-.footer {
+#footer {
+  display: flex;
+  justify-content: space-evenly;
   background-color: $headerName;
   text-align: center;
   margin-bottom: 0;
 
-  p {
-    padding: 1rem;
-  }
 
-  a {
-    text-decoration: none;
+  .attribute {
+    p {
+      padding: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
-@media (max-width:850px){
-  .footer {
+@media (max-width: 850px) {
+  
+  #footer {
+    flex-direction: column;
     p {
-      padding: .5rem;
+      padding: 0.5rem;
     }
   }
 }
