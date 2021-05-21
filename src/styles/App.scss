@@ -139,6 +139,8 @@ body {
   display: flex;
   align-items: center;
   scroll-behavior: smooth;
+  background-image: url('../assets/monsteraBackground.jpg');
+  background-repeat: no-repeat;
 }
 
 //Font Defaults
@@ -168,6 +170,7 @@ h5 {
 .sectionTitle {
   display: flex;
   background-color: $sectionTitle;
+  // background-image: url('../assets/monsteraBackground.jpg');
   border-radius: 30px 0 30px 0;
   border: 1px solid $primaryText;
   padding: 0.5% 1%;
@@ -176,34 +179,15 @@ h5 {
   box-shadow: $primaryText 1px 1px 3px;
 }
 
-//!Scroll Thumb animation not working
 //*Scrollbar Effects
 ::-webkit-scrollbar {
-  width: 14px;
-  opacity: 0;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: $headerName;
   border-radius: 4px;
-  // background: linear-gradient($headerName, $headerName, $actionItem);
-  // animation: animate 1s linear infinite;
-  // -webkit-animation: animate 1s linear infinite;
-  // animation: animate 1s linear infinite;
-  // -o-animation: animate 1s linear infinite;
-  // -ms-animation: animate 1s linear infinite;
-  // -moz-animation: animate 1s linear infinite;
 }
-
-// @keyframes animate {
-//   0%,
-//   100% {
-//     filter: hue-rotate(0deg);
-//   }
-//   50% {
-//     filter: hue-rotate(360deg);
-//   }
-// }
 
 //!Responsive Stylings
 
@@ -230,8 +214,8 @@ h5 {
   }
 }
 
+//*Tablet Styling
 @media (max-width: 850px) {
-  //Main App Tablet
   body {
     font-size: 12pt;
   }
