@@ -4,8 +4,9 @@
 > [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
 ## General Site
 
-- [ ] get a new domain name such as "peter-lofland"
+- [x] get a new domain name such as "peter-lofland"
 - [ ] (STRETCH) customize the scrollbar to the design system color palette
+- [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 
 ## General Styling
 
