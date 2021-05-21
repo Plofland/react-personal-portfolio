@@ -128,7 +128,7 @@ table {
 	border-spacing: 0;
 }
 
-//*BEGIN STYLING Destop first
+//*BEGIN STYLING Destop first (1440px)
 //Main App
 body {
 	background-color: $background;
@@ -146,7 +146,6 @@ h1 {
 	font-size: 40pt;
 	font-weight: bold;
 }
-
 h2 {
 	font-size: 28pt;
 	font-weight: medium;
@@ -175,6 +174,11 @@ h5 {
 	width: max-content;
 	position: absolute;
 	box-shadow: $primaryText 1px 1px 3px;
+}
+
+//*Large Monitor styling
+@media (min-width: 1441){
+	
 }
 
 @media (max-width: 850px) {
