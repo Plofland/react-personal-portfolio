@@ -1,11 +1,13 @@
 @import '../color.scss';
 
 #homeContent {
-	display: flex;
-	flex-direction: column;
-	margin: 5% auto;
-	padding: 5%;
-	width: 80%;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  margin: 5% auto;
+  padding: 5%;
+  width: 80%;
+  // border: 4px solid black;
 }
 
 //Tablet Styling
