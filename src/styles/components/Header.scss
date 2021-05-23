@@ -6,7 +6,7 @@
 	width: 100%;
 
 	img {
-		margin-top: -4%;
+		margin-top: -2%;
 		width: 100%;
 	}
 
@@ -41,4 +41,12 @@
 
 //*Phone Styling
 @media (max-width: 414px) {
+	.headerSection {
+		img {
+			margin-top: 0;
+		}
+		a {
+			padding: 0.6% 1% 0.6% 3%;
+		}
+	}
 }
