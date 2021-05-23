@@ -129,6 +129,9 @@
 
 		.intro {
 			box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+			.introDescription {
+				padding: 4%;
+			}
 		}
 		#introImg {
 			margin: 3% auto;

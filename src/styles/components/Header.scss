@@ -6,7 +6,7 @@
 	width: 100%;
 
 	img {
-		margin-top: -80px;
+		margin-top: -4%;
 		width: 100%;
 	}
 
@@ -27,8 +27,7 @@
 }
 
 //*Macbook Styling
-@media (max-width:1440px){
-  
+@media (max-width: 1440px) {
 }
 
 //*Tablet Styling
@@ -41,4 +40,5 @@
 }
 
 //*Phone Styling
-@media (max-width:414px){}
+@media (max-width: 414px) {
+}

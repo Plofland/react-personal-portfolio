@@ -38,7 +38,7 @@
 			align-items: center;
 			justify-content: center;
 			color: #fff;
-			font-size: 3rem !important;
+			font-size: 3rem;
 		}
 		@media (min-width: 1000px) {
 			//*Icon Stack Hover State
@@ -143,4 +143,18 @@
 }
 
 //*Phone Styling
-@media (max-width:414px){}
+@media (max-width: 414px) {
+	.contact {
+		.socialIcons {
+			padding: 2% 4%;
+
+			ul {
+				flex-wrap: wrap;
+			}
+			ul li span {
+				box-shadow: 1px 1px 1px 1px
+					rgba($primaryText, 0.1);
+			}
+		}
+	}
+}
