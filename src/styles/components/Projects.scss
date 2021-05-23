@@ -1,24 +1,21 @@
 @import '../color.scss';
 
 .projects {
+	.projectsContainer {
+		display: flex;
+		flex-direction: column;
+		padding: 5%;
+		background-color: $sectionBackdrop;
+		border-radius: 30px;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
 
-  .projectsContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    background-color: $sectionBackdrop;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
-
-    .project-tiles {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-  }
-
-  
+		.project-tiles {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+	}
 }
 
 //*Tablet Styling
@@ -28,9 +25,12 @@
 @media (min-width: 1400px) {
 }
 
-
 //*Phone Styling
-@media (max-width:414px){
-
-  
+@media (max-width: 414px) {
+	.projects {
+		.projectsContainer {
+			padding: 10% 0 5% 0;
+			box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
+		}
+	}
 }
