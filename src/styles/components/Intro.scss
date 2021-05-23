@@ -72,7 +72,7 @@
 
 	@keyframes slideInFromBottom {
 		0% {
-			transform: translateY(600%);
+			transform: translateY(100%);
 			opacity: 0;
 		}
 		95% {
@@ -92,14 +92,14 @@
 	}
 }
 
-//Macbook Styling
+//*Macbook Styling
 @media (max-width: 1440px) {
 	.introSection {
 		margin-top: 4%;
 	}
 }
 
-//Tablet Styling
+//*Tablet Styling
 @media (max-width: 850px) {
 	.introSection {
 		.intro {
@@ -113,3 +113,6 @@
 		}
 	}
 }
+
+//*Phone Styling
+@media (max-width:414px){}

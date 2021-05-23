@@ -26,7 +26,12 @@
 	}
 }
 
-//Tablet Styling
+//*Macbook Styling
+@media (max-width:1440px){
+  
+}
+
+//*Tablet Styling
 @media (max-width: 850px) {
 	.headerSection {
 		a {
@@ -35,7 +40,5 @@
 	}
 }
 
-//Macbook Styling
-@media (max-width:1440px){
-  
-}
+//*Phone Styling
+@media (max-width:414px){}
