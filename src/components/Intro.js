@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/Intro.scss';
 import coder from '../assets/python-2.gif';
+import coderStill from '../assets/python-2-still.jpg';
 
 export default function Intro() {
 	return (
@@ -12,10 +13,14 @@ export default function Intro() {
 				<div className="introDescription">
 					<p>Hello! I'm Peter.</p>
 					<p>
-						I have a passion for coding to solve problems and
-						designing websites.
+						I have a passion for coding to solve
+						problems and designing websites.
 					</p>
-					<p>I'd love to be a part of your team and help build your idea or project into a real world product.</p>
+					<p>
+						I'd love to be a part of your team
+						and help build your idea or project
+						into a real world product.
+					</p>
 				</div>
 				<div className="callToActionContainer">
 					<a
@@ -30,10 +35,21 @@ export default function Intro() {
 				</div>
 			</div>
 			<div id="introImg">
-				<img
+				{window.innerWidth > 414 ? (
+					<img
+						src={coder}
+						alt="Graphic of coder sitting at a desk"
+					></img>
+				) : (
+					<img
+						src={coderStill}
+						alt="Animation of coder sitting at a desk"
+					></img>
+				)}
+				{/* <img
 					src={coder}
 					alt="animation of coder sitting at a desk"
-				></img>
+				></img> */}
 			</div>
 		</div>
 	);
