@@ -30,4 +30,16 @@
 }
 
 //*Phone Styling
-@media (max-width:414px){}
+@media (max-width:414px){
+  #footer {
+    .attribute {
+      p {
+        padding: 1%;
+      }
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
