@@ -19,12 +19,27 @@
   }
 }
 
+//* Tablet Styling
 @media (max-width: 850px) {
-  
   #footer {
     flex-direction: column;
     p {
       padding: 0.5rem;
+    }
+  }
+}
+
+//*Phone Styling
+@media (max-width:414px){
+  #footer {
+    .attribute {
+      p {
+        padding: 1%;
+      }
+  
+      a {
+        text-decoration: none;
+      }
     }
   }
 }

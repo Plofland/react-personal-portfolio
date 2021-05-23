@@ -1,13 +1,25 @@
 @import '../color.scss';
 
 #homeContent {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-  margin: 0 auto;
-  padding: 0 5% 5% 5%;
-  width: 80%;
+	margin: 0 auto;
+	padding: 0 5% 5% 5%;
+	width: 80%;
 }
 
 //Tablet Styling
 //Fine as is
+
+//*Phone Styling
+@media (max-width: 414px) {
+	#homeContent {
+		// display: flex;
+		// flex-direction: column;
+		// align-items: center;
+		// margin: 0 auto;
+		// padding: 0 5% 5% 5%;
+		width: 90%;
+	}
+}

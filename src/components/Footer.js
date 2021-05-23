@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="attribute">
         <p>
           Palm Leaf Tropical Background belongs to Юлия
-          Гапеенко
+          Гапеенко (a.k.a. yganko)
         </p>
         <a
           href="https://www.vecteezy.com/members/yganko"
