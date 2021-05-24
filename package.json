@@ -1,6 +1,6 @@
 {
   "homepage": "https://plofland.github.io/portfolio/",
-  "name": "portfolio-react",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
