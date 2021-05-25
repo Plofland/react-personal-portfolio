@@ -1,11 +1,10 @@
 # Portfolio
 
-> [Personal portfolio](https://personal-portfolio-cyan.vercel.app/) to house my projects, show off my skillset and let others know a little bit about me
-> [Vercel Deployment](https://vercel.com/plofland/personal-portfolio/FNbipnayPjjjJtN5rCfKmqX6SE6C)
+> [Personal portfolio](https://peterlofland.com/) to house my projects, show off my skillset and let others know a little bit about me
 ## General Site
 
-- [x] get a new domain name such as "peter-lofland"
-- [x] (STRETCH) customize the scrollbar to the design system color palette
+- [ ] size down images for better performance
+
 - [ ] create a custom 404 page - [instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 - [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 - [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
@@ -32,6 +31,7 @@
 
 ## Projects Section
 
+- [ ] add a short description for each project (maybe a hover state that has the short description over the image)
 - [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
