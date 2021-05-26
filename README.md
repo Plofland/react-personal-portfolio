@@ -3,8 +3,7 @@
 > [Personal portfolio](https://peterlofland.com/) to house my projects, show off my skillset and let others know a little bit about me
 ## General Site
 
-- [ ] size down images for better performance
-
+- [x] size down images for better performance
 - [ ] create a custom 404 page - [instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 - [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 - [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
@@ -17,6 +16,7 @@
 - [ ] Responsive design for small window (1200 x 900)
 - [x] Responsive design for tablet (834 x 1194)
 - [x] responsive mobile for mobile (414 x 896)
+- [ ] improve the spacing of all the sections for mobile
 - [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 - [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
@@ -39,5 +39,11 @@
 - [ ] add a more natural photo of me
 
 ## Contact Section
+
+- [ ] improve the spaceing of the contacts for mobile
+
+## Header
+
+- [ ] make header larger for mobile
 
 ## Footer
