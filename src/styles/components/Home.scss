@@ -23,10 +23,37 @@
   // }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .sectionAnimation {
-    animation: wipe-enter 2s 1;
+@keyframes fromLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
   }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .leftAnimation {
+    animation: fromLeft 0.5s 1 ease-out;
+  }
+	.rightAnimation {
+		animation: fromRight 0.5s 1 ease-out;
+	}
 }
 
 //Tablet Styling

@@ -13,46 +13,40 @@ import Logos from './Logos';
 import '../styles/components/Home.scss';
 
 export default function Home() {
-  // V2.0
-  // let sections = document.querySelectorAll('.square');
   let options = {
     // root: document.querySelector('#scrollArea'),
     rootMargin: '0px',
-    threshold: 1
+    threshold: 0.1
   };
-  // let callback = (entries) => {
-  //   entries.forEach((entry) => {
-  //     let target = entry.target;
-  //     if (entry.isIntersecting) {
-  //       target.classList.add('squareAnimation');
-  //     } else {
-  //       target.classList.remove('squareAnimation');
-  //     }
-  //   });
-  // };
-  // let observer = new IntersectionObserver(
-  //   callback,
-  //   options
-  // );
-  // sections.forEach((section, index) => {
-  //   observer.observe(section);
-  // });
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      console.log('ENTRIES', { entries });
+      // console.log('ENTRIES', { entries });
       entries.forEach((entry) => {
-        // console.log("ENTRY",entry)
+        // console.log('ENTRY', entry);
 
-        // if (entry.isIntersecting) {
-        if (entry.intersectionRatio >= 0) {
-          entry.target.classList.add('sectionAnimation');
+        if (
+          entry.isIntersecting &&
+          entry.target.className === 'right'
+        ) {
+          entry.target.classList.add('rightAnimation');
+        }
+        if (
+          entry.isIntersecting &&
+          entry.target.className === 'left'
+        ) {
+          entry.target.classList.add('leftAnimation');
+        } else {
+          entry.target.classList.remove(
+            'leftAnimation' || 'rightAnimation'
+          );
         }
       });
     }, options);
 
-    const sections =
-      document.querySelectorAll('.homeSection');
+    const sections = document.querySelectorAll(
+      '.left' || '.right'
+    );
 
     sections.forEach((section) => {
       observer.observe(section);
@@ -62,19 +56,19 @@ export default function Home() {
   return (
     <div className="homeContent">
       <Intro />
-      <div className="homeSection">
+      <div className="left">
         <Projects />
       </div>
-      <div className="homeSection">
+      <div className="right">
         <Skills />
       </div>
-      <div className="homeSection">
+      <div className="left">
         <AboutMe />
       </div>
-      <div className="homeSection">
+      <div className="right">
         <Contact />
       </div>
-      <div className="homeSection">
+      <div className="left">
         <Logos />
       </div>
     </div>
