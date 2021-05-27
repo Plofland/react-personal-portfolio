@@ -7,7 +7,7 @@ export default function Intro() {
 	return (
 		<div className="introSection">
 			<div className="sectionTitle">
-				<h2>Full Stack Web Developer</h2>
+				<h2>Full Stack Developer</h2>
 			</div>
 			<div className="intro">
 				<div className="introDescription">
