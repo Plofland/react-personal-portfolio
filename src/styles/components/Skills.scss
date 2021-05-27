@@ -38,29 +38,16 @@
   }
 }
 
-// @keyframes slideInFromRight {
-//   0% {
-//     transform: translateX(600%);
-//     opacity: 0;
-//   }
-//   95% {
-//     transform: translateX(2%);
-//   }
-//   100% {
-//     transform: translateX(0);
-//     opacity: 1;
-//   }
-// }
 
-//*Animate on Scroll
-@keyframes wipe-enter {
-	0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
-}
+//*Animate on Scroll (hold on to this wipe enter for now)
+// @keyframes wipe-enter {
+// 	0% {
+// 		transform: scale(0, .025);
+// 	}
+// 	50% {
+// 		transform: scale(1, .025);
+// 	}
+// }
 
 @media (prefers-reduced-motion: no-preference) {
   .square-animation {
@@ -68,7 +55,7 @@
   }
 }
 
-//Macbook Styling
+//*Macbook Styling
 @media (max-width:1440px){
   .skills {
     .skillsList {
