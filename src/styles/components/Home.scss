@@ -1,12 +1,32 @@
 @import '../color.scss';
 
-#homeContent {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-	padding: 0 5% 5% 5%;
-	width: 80%;
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5% 5% 5%;
+  width: 80%;
+}
+
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, 0.025);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1, 0.025);
+    opacity: 0.5;
+  }
+  // 100% {
+  //   opacity: 1;
+  // }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sectionAnimation {
+    animation: wipe-enter 2s 1;
+  }
 }
 
 //Tablet Styling
@@ -14,7 +34,7 @@
 
 //*Phone Styling
 @media (max-width: 414px) {
-	#homeContent {
-		width: 90%;
-	}
+  #homeContent {
+    width: 90%;
+  }
 }
