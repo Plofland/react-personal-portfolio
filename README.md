@@ -14,7 +14,7 @@
 
 -   [x] Responsive design for large monitor (1440+)
 -   [x] Responsive design for macbook (1440 x 900)
--   [ ] Responsive design for small window (1200 x 900)
+-   [x] Responsive design for small window (1200 x 900)
 -   [x] Responsive design for tablet (834 x 1194)
 -   [x] responsive mobile for mobile (414 x 896)
 -   [ ] fix sizing issues with sections/intro (415px-820px)
@@ -49,6 +49,6 @@
 ## Header
 
 -   [x] make header larger for mobile
--   [ ] resize banner for mobile
+-   [x] resize banner for mobile
 
 ## Footer
