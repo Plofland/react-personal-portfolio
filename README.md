@@ -18,7 +18,7 @@
 - [x] responsive mobile for mobile (414 x 896)
 - [ ] improve the spacing of all the sections for mobile
 - [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
-- [ ] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
+- [x] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
 ## Intro
 
