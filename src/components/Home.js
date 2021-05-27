@@ -28,19 +28,29 @@ export default function Home() {
           entry.target.id === 'right'
         ) {
           // console.log(entry.target.id);
-          entry.target.classList.add('leftAnimation');
+          entry.target.classList.add('rightAnimation');
+          console.log('RIGHT ADDED');
         }
         if (
           entry.isIntersecting &&
           entry.target.id === 'left'
         ) {
           // console.log(entry.target.id);
-          entry.target.classList.add('rightAnimation');
+          entry.target.classList.add('leftAnimation');
+          console.log('LEFT ADDED');
         } else {
-          if (entry.target.id === 'left') {
+          if (
+            !entry.isIntersecting &&
+            entry.target.id === 'left'
+          ) {
             entry.target.classList.remove('leftAnimation');
+
             console.log('LEFT REMOVED');
-          } else {
+          }
+          if (
+            !entry.isIntersecting &&
+            entry.target.id === 'right'
+          ) {
             entry.target.classList.remove('rightAnimation');
             console.log('RIGHT REMOVED');
           }
