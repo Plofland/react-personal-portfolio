@@ -19,50 +19,37 @@ export default function Home() {
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      // console.log('ENTRIES', { entries });
       entries.forEach((entry) => {
-        // console.log('ENTRY', entry);
-        // console.log('BOTH', entry.target.className);
         if (
           entry.isIntersecting &&
           entry.target.id === 'right'
         ) {
-          // console.log(entry.target.id);
           entry.target.classList.add('rightAnimation');
-          console.log('RIGHT ADDED');
         }
         if (
           entry.isIntersecting &&
           entry.target.id === 'left'
         ) {
-          // console.log(entry.target.id);
           entry.target.classList.add('leftAnimation');
-          console.log('LEFT ADDED');
         } else {
           if (
             !entry.isIntersecting &&
             entry.target.id === 'left'
           ) {
             entry.target.classList.remove('leftAnimation');
-
-            console.log('LEFT REMOVED');
           }
           if (
             !entry.isIntersecting &&
             entry.target.id === 'right'
           ) {
             entry.target.classList.remove('rightAnimation');
-            console.log('RIGHT REMOVED');
           }
         }
       });
     }, options);
 
-    let sections = document.querySelectorAll(
-      // '.right' || '.left'
-      // '.right'
-      '.homeSection'
-    );
+    let sections =
+      document.querySelectorAll('.homeSection');
 
     sections.forEach((section) => {
       observer.observe(section);

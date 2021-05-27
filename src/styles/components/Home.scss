@@ -9,23 +9,9 @@
   width: 80%;
 }
 
-@keyframes wipe-enter {
-  0% {
-    transform: scale(0, 0.025);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1, 0.025);
-    opacity: 0.5;
-  }
-  // 100% {
-  //   opacity: 1;
-  // }
-}
-
 @keyframes fromLeft {
   from {
-    transform: translateX(-150px);
+    transform: translateX(-150px) skew(-5deg);
     opacity: 0;
   }
 
@@ -37,7 +23,7 @@
 
 @keyframes fromRight {
   0% {
-    transform: translateX(150px);
+    transform: translateX(150px) skew(5deg);
     opacity: 0;
   }
 
