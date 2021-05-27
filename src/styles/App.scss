@@ -245,11 +245,9 @@ h5 {
 		font-size: 12pt;
 	}
 
-	//Font Defaults Tablet
 	h1 {
 		font-size: 20pt;
 	}
-
 	h2 {
 		font-size: 16pt;
 	}
@@ -270,16 +268,14 @@ h5 {
 }
 
 //*Phone Styling
-@media (max-width:414px){
+@media (max-width: 414px) {
 	body {
 		font-size: 10pt;
 	}
 
-	//Font Defaults Tablet
 	h1 {
 		font-size: 18pt;
 	}
-
 	h2 {
 		font-size: 14pt;
 	}
@@ -293,6 +289,9 @@ h5 {
 		font-size: 8pt;
 	}
 
+	.section {
+		margin: 10% auto;
+	}
 	.sectionTitle {
 		padding: 1% 4%;
 		box-shadow: $primaryText 0.5px 0.5px 2px;

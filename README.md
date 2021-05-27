@@ -16,7 +16,9 @@
 - [ ] Responsive design for small window (1200 x 900)
 - [x] Responsive design for tablet (834 x 1194)
 - [x] responsive mobile for mobile (414 x 896)
-- [ ] improve the spacing of all the sections for mobile
+- [ ] fix sizing issues with sections/intro (415px-820px) 
+- [ ] space out sections for mobile
+- [ ] space out sections for large desktop monitor
 - [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 - [x] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
