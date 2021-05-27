@@ -1,5 +1,4 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 //*Components
 import Intro from './Intro';
@@ -14,7 +13,6 @@ import '../styles/components/Home.scss';
 
 export default function Home() {
   let options = {
-    // root: document.querySelector('#scrollArea'),
     rootMargin: '0px',
     threshold: 0.1
   };
@@ -24,28 +22,36 @@ export default function Home() {
       // console.log('ENTRIES', { entries });
       entries.forEach((entry) => {
         // console.log('ENTRY', entry);
-
+        // console.log('BOTH', entry.target.className);
         if (
           entry.isIntersecting &&
-          entry.target.className === 'right'
+          entry.target.id === 'right'
         ) {
-          entry.target.classList.add('rightAnimation');
+          // console.log(entry.target.id);
+          entry.target.classList.add('leftAnimation');
         }
         if (
           entry.isIntersecting &&
-          entry.target.className === 'left'
+          entry.target.id === 'left'
         ) {
-          entry.target.classList.add('leftAnimation');
+          // console.log(entry.target.id);
+          entry.target.classList.add('rightAnimation');
         } else {
-          entry.target.classList.remove(
-            'leftAnimation' || 'rightAnimation'
-          );
+          if (entry.target.id === 'left') {
+            entry.target.classList.remove('leftAnimation');
+            console.log('LEFT REMOVED');
+          } else {
+            entry.target.classList.remove('rightAnimation');
+            console.log('RIGHT REMOVED');
+          }
         }
       });
     }, options);
 
-    const sections = document.querySelectorAll(
-      '.left' || '.right'
+    let sections = document.querySelectorAll(
+      // '.right' || '.left'
+      // '.right'
+      '.homeSection'
     );
 
     sections.forEach((section) => {
@@ -56,19 +62,19 @@ export default function Home() {
   return (
     <div className="homeContent">
       <Intro />
-      <div className="left">
+      <div id="left" className="homeSection">
         <Projects />
       </div>
-      <div className="right">
+      <div id="right" className="homeSection">
         <Skills />
       </div>
-      <div className="left">
+      <div id="left" className="homeSection">
         <AboutMe />
       </div>
-      <div className="right">
+      <div id="right" className="homeSection">
         <Contact />
       </div>
-      <div className="left">
+      <div id="left" className="homeSection">
         <Logos />
       </div>
     </div>

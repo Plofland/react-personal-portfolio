@@ -25,7 +25,7 @@
 
 @keyframes fromLeft {
   from {
-    transform: translateX(-100px);
+    transform: translateX(-150px);
     opacity: 0;
   }
 
@@ -37,7 +37,7 @@
 
 @keyframes fromRight {
   0% {
-    transform: translateX(100px);
+    transform: translateX(150px);
     opacity: 0;
   }
 
@@ -51,9 +51,9 @@
   .leftAnimation {
     animation: fromLeft 0.5s 1 ease-out;
   }
-	.rightAnimation {
-		animation: fromRight 0.5s 1 ease-out;
-	}
+  .rightAnimation {
+    animation: fromRight 0.5s 1 ease-out;
+  }
 }
 
 //Tablet Styling
