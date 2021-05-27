@@ -33,6 +33,9 @@
 //*Tablet Styling
 @media (max-width: 850px) {
 	.headerSection {
+		img {
+			margin-top: 0;
+		}
 		a {
 			padding: 0.6% 2%;
 		}
@@ -42,9 +45,6 @@
 //*Phone Styling
 @media (max-width: 414px) {
 	.headerSection {
-		img {
-			margin-top: 0;
-		}
 		a {
 			padding: 0.5% 2% 0.5% 3%;
 			height: 5%;

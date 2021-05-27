@@ -1,144 +1,142 @@
 @import '../color.scss';
 
 .introSection {
-	display: flex;
-	margin: 0 0 5% 0;
+  display: flex;
+  margin: 0 0 5% 0;
 
-	.intro {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		background-color: $sectionBackdrop;
-		height: auto;
-		border-radius: 30px;
-		box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $sectionBackdrop;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
 
-		.introDescription {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-evenly;
-			align-items: center;
-			height: 85%;
-			margin-top: 8%;
-			padding: 0 4%;
+    .introDescription {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 85%;
+      margin-top: 8%;
+      padding: 0 4%;
 
-			p {
-				text-align: center;
-			}
-		}
+      p {
+        text-align: center;
+      }
+    }
 
-		.callToActionContainer {
-			height: 15%;
-			display: flex;
-			flex-direction: row-reverse;
-			align-items: flex-end;
+    .callToActionContainer {
+      height: 15%;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-end;
 
-			a {
-				text-decoration: none;
-				z-index: 99;
+      a {
+        text-decoration: none;
+        z-index: 99;
 
-				#button {
-					float: right;
-					border-radius: 30px 0 30px 0;
-					background-color: $actionItem;
-					background-image: linear-gradient(
-						to top,
-						rgba(0, 0, 0, 0.2),
-						$actionItem,
-						rgba(255, 255, 255, 0.4)
-					);
-					color: $primaryText;
-					white-space: nowrap;
-					padding: 2% 10%;
-					border: 1px solid $actionItem;
-					text-shadow: 0 1px 1px
-						rgba(0, 0, 0, 0.3);
-					box-shadow: rgba(0, 0, 0, 0.3) -1px -1px
-						3px;
+        #button {
+          float: right;
+          border-radius: 30px 0 30px 0;
+          background-color: $actionItem;
+          background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.2),
+            $actionItem,
+            rgba(255, 255, 255, 0.4)
+          );
+          color: $primaryText;
+          white-space: nowrap;
+          padding: 2% 10%;
+          border: 1px solid $actionItem;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: rgba(0, 0, 0, 0.3) -1px -1px 3px;
 
-					transition: 0.3s ease-in-out;
-				}
-				@media (min-width: 1000px) {
-					#button:hover {
-						transform: scale(1.1);
-						transform-origin: right bottom;
-						transition: 0.3s ease-in-out;
-						border-radius: 26px 0 26px 0;
-					}
-				}
-			}
-		}
-	}
+          transition: 0.3s ease-in-out;
+        }
+        @media (min-width: 1000px) {
+          #button:hover {
+            transform: scale(1.1);
+            transform-origin: right bottom;
+            transition: 0.3s ease-in-out;
+            border-radius: 26px 0 26px 0;
+          }
+        }
+      }
+    }
+  }
 
-	@media (min-width: 850px) {
-		@keyframes slideInFromBottom {
-			0% {
-				transform: translateY(100%);
-				opacity: 0;
-			}
-			100% {
-				transform: translateY(0);
-				opacity: 1;
-			}
-		}
+  @media (min-width: 850px) {
+    @keyframes slideInFromBottom {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
 
-		#introImg {
-			animation: 1s ease-out 0s 1 slideInFromBottom;
-			img {
-				width: 42vw;
-			}
-		}
-	}
+    #introImg {
+      animation: 1s ease-out 0s 1 slideInFromBottom;
+      img {
+        width: 42vw;
+      }
+    }
+  }
 }
 
 //*Macbook Styling
 @media (max-width: 1440px) {
-	.introSection {
-		margin-top: 4%;
-	}
+  .introSection {
+    margin-top: 4%;
+  }
 }
 
 //*Tablet Styling
 @media (max-width: 850px) {
-	.introSection {
-		.intro {
-			.callToActionContainer {
-				a {
-					#button {
-						padding: 4% 15%;
-					}
-				}
-			}
-		}
-	}
-	#introImg {
-		img {
-			width: 42vw;
-		}
-	}
+  .introSection {
+    .intro {
+      .callToActionContainer {
+        a {
+          #button {
+            padding: 4% 15%;
+          }
+        }
+      }
+    }
+  }
+  #introImg {
+    img {
+      width: 42vw;
+    }
+  }
 }
 
 //*Phone Styling
 @media (max-width: 414px) {
-	.introSection {
-		flex-direction: column;
-		margin: 45% 0 25% 0;
+  .introSection {
+    flex-direction: column;
+    margin: 30% 0 25% 0;
 
-		.intro {
-			box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
+    .intro {
+      box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 
-			.introDescription {
-				padding: 10% 4%;
-				p {
-					margin: 4% 0;
-				}
-			}
-		}
-		#introImg {
-			margin: 10% auto;
-			img {
-				width: 100%;
-			}
-		}
-	}
+      .introDescription {
+        padding: 10% 4%;
+        p {
+          margin: 4% 0;
+        }
+      }
+    }
+    #introImg {
+      margin: 5% auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }

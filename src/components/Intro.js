@@ -18,7 +18,7 @@ export default function Intro() {
 					</p>
 					<p>
 						I'd love to be a part of your team
-						and help build your idea or project
+						and help transform your vision
 						into a real world product.
 					</p>
 				</div>
