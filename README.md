@@ -17,7 +17,7 @@
 -   [x] Responsive design for small window (1200 x 900)
 -   [x] Responsive design for tablet (834 x 1194)
 -   [x] responsive mobile for mobile (414 x 896)
--   [ ] fix sizing issues with sections/intro (415px-820px)
+-   [x] fix sizing issues with sections/intro (415px-820px)
 -   [x] space out sections for mobile
 -   [ ] space out sections for large desktop monitor
 -   [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
