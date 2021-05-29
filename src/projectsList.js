@@ -25,13 +25,13 @@ const projectsList = [
     imgSrc: todoApp,
     imgAlt: 'ToDo React App'
   },
-  {
-    id: 3,
-    projectName: 'Product Landing Page',
-    hrefLink: 'https://hkproductlandingpage.netlify.app/',
-    imgSrc: hkLanding,
-    imgAlt: 'Product landing page project'
-  },
+  // {
+  //   id: 3,
+  //   projectName: 'Product Landing Page',
+  //   hrefLink: 'https://hkproductlandingpage.netlify.app/',
+  //   imgSrc: hkLanding,
+  //   imgAlt: 'Product landing page project'
+  // },
 ];
 
 export default projectsList;
