@@ -16,6 +16,7 @@
 			position: relative;
 			display: flex;
 			justify-content: space-evenly;
+			margin-top: 4%;
 		}
 
 		ul li {
@@ -23,7 +24,7 @@
 			list-style: none;
 			width: 4rem;
 			height: 4rem;
-			margin: 2rem 2rem;
+			margin: 2.2rem 2.2rem;
 		}
 
 		ul li span {
@@ -103,32 +104,6 @@
 	}
 }
 
-//*Large Monitor Styling
-@media (min-width: 1400px) {
-	.contact {
-		.socialIcons {
-			ul {
-				width: 80%;
-			}
-		}
-	}
-}
-
-//*Macbook Styling
-@media (max-width: 1440px) {
-	.contact {
-		width: 100%;
-		.socialIcons {
-			ul {
-				width: 100%;
-				margin-top: 3%;
-			}
-			ul li {
-				margin: 2.2rem;
-			}
-		}
-	}
-}
 
 //*Tablet Styling
 @media (max-width: 850px) {
