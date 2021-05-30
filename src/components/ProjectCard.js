@@ -2,8 +2,13 @@ import React from 'react';
 import '../styles/components/ProjectCard.scss';
 
 export default function projectCard(props) {
-	const { hrefLink, imgSrc, imgAlt, projectName } =
-		props.project;
+	const {
+		hrefLink,
+		description,
+		imgSrc,
+		imgAlt,
+		projectName
+	} = props.project;
 	return (
 		<div className="project">
 			<a
@@ -12,11 +17,18 @@ export default function projectCard(props) {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img
-					className="project-img"
-					src={imgSrc}
-					alt={imgAlt}
-				/>
+				<div className="img-container">
+					{window.innerWidth > 835 ? 
+						(<div id="text-overlay">
+							<p>{description}</p>
+						</div>) : (<div></div>)
+						}
+					<img
+						className="project-img"
+						src={imgSrc}
+						alt={imgAlt}
+					/>
+				</div>
 				<h4 class="project-title">
 					<span className="code">&lt;</span>
 					{projectName}
