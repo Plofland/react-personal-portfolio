@@ -18,7 +18,7 @@ export default function projectCard(props) {
 				rel="noreferrer"
 			>
 				<div className="img-container">
-					<div id="image-overlay">
+					<div id="text-overlay">
 						<p>{description}</p>
 					</div>
 					<img
