@@ -46,10 +46,6 @@ export default function Intro() {
 						alt="Animation of coder sitting at a desk"
 					></img>
 				)}
-				{/* <img
-					src={coder}
-					alt="animation of coder sitting at a desk"
-				></img> */}
 			</div>
 		</div>
 	);
