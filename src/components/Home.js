@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import Intro from './Intro';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import Contact from './ContactMe';
+import Contact from './Contact';
 import Skills from './Skills';
 import Logos from './Logos';
 
