@@ -44,7 +44,7 @@
 ## Contact Section
 
 -   [x] improve the spaceing of the contacts for mobile
--   [ ] fix styling issues above 1440px where the icon are messed up
+-   [x] fix styling issues above 1440px where the icon are messed up
 
 ## Header
 
