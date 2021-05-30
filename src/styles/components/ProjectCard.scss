@@ -15,15 +15,29 @@
 
 	.project-tile:hover {
 		box-shadow:
-      /* top */ $actionItem 0px -3px 4px,
+      		/* top */ $actionItem 0px -3px 4px,
 			/* right */ $actionItem 3px 0px 4px,
 			/* left */ $actionItem -3px 0px 4px;
 		transition: 1s ease-in-out;
+		.img-container {
+			#image-overlay {
+				opacity: 1;
+			}
+		}
 	}
 
 	.project-img {
 		width: 100%;
 		border-radius: 5px 5px 0 0;
+	}
+
+	#image-overlay {
+		position: absolute;
+		color: white;
+		background: rgba(0, 0, 0, 0.6);
+		width: 100%;
+		// display: flex;
+		opacity: 0;
 	}
 
 	.project-title {
@@ -79,8 +93,8 @@
 }
 // //*Phone Styling
 @media (max-width: 414px) {
-  .project {
-    width: 40%;
-    margin: 2% 0;
-  }
+	.project {
+		width: 40%;
+		margin: 2% 0;
+	}
 }
