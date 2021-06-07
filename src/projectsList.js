@@ -1,5 +1,6 @@
 // import hkLanding from './assets/product-preview.png';
-import todoApp from './assets/todoReactApp.png';
+// import todoApp from './assets/todoReactApp.png';
+import twitterClone from './assets/nextJSTwitterClone.png';
 import coMake from './assets/co-make.png';
 import LAN from './assets/LAN.jpg';
 
@@ -22,12 +23,20 @@ const projectsList = [
   },
   {
     id: 2,
-    projectName: 'ToDo Application',
+    projectName: 'Twitter Clone',
     hrefLink: 'https://my-very-own-todo-app.netlify.app/',
-    description: 'Create and edit a list of Todo\'s',
-    imgSrc: todoApp,
-    imgAlt: 'ToDo React App'
+    description: 'Twitter mobile clone maded with NextJS & Tailwind',
+    imgSrc: twitterClone,
+    imgAlt: 'Twitter Clone project'
   },
+  // {
+  //   id: 2,
+  //   projectName: 'ToDo Application',
+  //   hrefLink: 'https://my-very-own-todo-app.netlify.app/',
+  //   description: 'Create and edit a list of Todo\'s',
+  //   imgSrc: todoApp,
+  //   imgAlt: 'ToDo React App'
+  // },
   // {
   //   id: 3,
   //   projectName: 'Product Landing Page',
