@@ -18,11 +18,15 @@ export default function projectCard(props) {
 				rel="noreferrer"
 			>
 				<div className="img-container">
-					{window.innerWidth > 835 ? 
-						(<div id="text-overlay">
+					{window.innerWidth > 835 ? (
+						<div id="text-overlay">
 							<p>{description}</p>
-						</div>) : (<div></div>)
-						}
+						</div>
+					) : (
+						<div>
+							<p></p>
+						</div>
+					)}
 					<img
 						className="project-img"
 						src={imgSrc}

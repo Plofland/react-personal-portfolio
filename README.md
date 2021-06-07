@@ -35,7 +35,7 @@
 ## Projects Section
 
 -   [x] add a short description for each project (maybe a hover state that has the short description over the image)
--   [ ] responsive issue: project description shows on mobile
+-   [x] responsive issue: project description shows on mobile
 -   [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
