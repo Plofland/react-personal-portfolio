@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.144572a0.chunk.css",
-    "main.js": "/static/js/main.00682ee5.chunk.js",
-    "main.js.map": "/static/js/main.00682ee5.chunk.js.map",
+    "main.css": "/static/css/main.28b43d8b.chunk.css",
+    "main.js": "/static/js/main.61e06e47.chunk.js",
+    "main.js.map": "/static/js/main.61e06e47.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.c1d25e43.chunk.js": "/static/js/2.c1d25e43.chunk.js",
     "static/js/2.c1d25e43.chunk.js.map": "/static/js/2.c1d25e43.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.144572a0.chunk.css.map": "/static/css/main.144572a0.chunk.css.map",
+    "static/css/main.28b43d8b.chunk.css.map": "/static/css/main.28b43d8b.chunk.css.map",
     "static/js/2.c1d25e43.chunk.js.LICENSE.txt": "/static/js/2.c1d25e43.chunk.js.LICENSE.txt",
     "static/media/LAN.1f43cff6.jpg": "/static/media/LAN.1f43cff6.jpg",
     "static/media/co-make.94719032.png": "/static/media/co-make.94719032.png",
@@ -17,16 +17,16 @@
     "static/media/monsteraBackground1440.6c7c8475.jpg": "/static/media/monsteraBackground1440.6c7c8475.jpg",
     "static/media/monsteraBackground414.1448cd74.jpg": "/static/media/monsteraBackground414.1448cd74.jpg",
     "static/media/monsteraBackground900.9d9f6041.jpg": "/static/media/monsteraBackground900.9d9f6041.jpg",
+    "static/media/nextJSTwitterClone.a21284b0.png": "/static/media/nextJSTwitterClone.a21284b0.png",
     "static/media/python-2-still.21ceb25f.jpg": "/static/media/python-2-still.21ceb25f.jpg",
     "static/media/python-2.1d79e531.gif": "/static/media/python-2.1d79e531.gif",
     "static/media/selfBustShot.5abbeae1.jpg": "/static/media/selfBustShot.5abbeae1.jpg",
-    "static/media/selfBustShotMobile.8a1dc7e0.jpg": "/static/media/selfBustShotMobile.8a1dc7e0.jpg",
-    "static/media/todoReactApp.446a8ba8.png": "/static/media/todoReactApp.446a8ba8.png"
+    "static/media/selfBustShotMobile.8a1dc7e0.jpg": "/static/media/selfBustShotMobile.8a1dc7e0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.c1d25e43.chunk.js",
-    "static/css/main.144572a0.chunk.css",
-    "static/js/main.00682ee5.chunk.js"
+    "static/css/main.28b43d8b.chunk.css",
+    "static/js/main.61e06e47.chunk.js"
   ]
 }
