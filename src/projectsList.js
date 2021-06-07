@@ -24,8 +24,8 @@ const projectsList = [
   {
     id: 2,
     projectName: 'Twitter Clone',
-    hrefLink: 'https://my-very-own-todo-app.netlify.app/',
-    description: 'Twitter mobile clone maded with NextJS & Tailwind',
+    hrefLink: 'https://nextjs-twitter-clone.netlify.app/',
+    description: 'Twitter mobile clone made with NextJS & Tailwind',
     imgSrc: twitterClone,
     imgAlt: 'Twitter Clone project'
   },
