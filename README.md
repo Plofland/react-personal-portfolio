@@ -51,5 +51,6 @@
 
 -   [x] make header larger for mobile
 -   [x] resize banner for mobile
+-   [x] slow and smooth animate in for banner image
 
 ## Footer
