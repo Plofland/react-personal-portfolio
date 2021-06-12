@@ -1,21 +1,106 @@
+// https://stackoverflow.com/questions/61275260/how-do-i-add-a-fill-up-dot-navigation-style-vertically-on-my-html-css-website
 .navbar {
-	// border: 1px solid blue;
-	// display: flex;
+	position: fixed;
+	right: 32px;
+	top: 50%;
+	// transform: translateY(-50%);
 	ul {
 		li {
 			// border: 1px solid red;
-
 			a {
 				// border: 1px solid black;
-				.dot {
-					// background-color: red;
-					border: 2px solid blue;
-					border-radius: 50%;
-					height: 0.5rem;
-					width: 0.5rem;
-					margin: 0.1rem 0;
+
+				// background-color: red;
+                display: block;
+				border: 2px solid blue;
+				border-radius: 50%;
+				height: 0.5rem;
+				width: 0.5rem;
+				margin: 0.2rem 0;
+				text-indent: -999px;
+				overflow: hidden;
+
+				/* establish positioning conext for the ::after pseudo-elements (below)*/
+				position: relative;
+
+				.current {
+					background-color: blue;
 				}
 			}
 		}
 	}
 }
+.navbar a::after {
+	/* won't render without a 'content' rule */
+	content: '';
+
+	/* white fill */
+	background-color: gray;
+
+	/* zero height until it's active */
+	position: absolute;
+	bottom: 0;
+	height: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+
+	/* animate the height when it changes */
+	transition: height 0.3s ease;
+}
+.navbar a:hover::after,
+.navbar a.active::after {
+	/* change the height to 100%.
+     the transition rule above will cause this to animate */
+	height: 100%;
+}
+
+
+
+// Method #2
+// https://tympanus.net/codrops/2014/01/21/dot-navigation-styles/
+// .navbar {
+// 	position: fixed;
+// 	right: 32px;
+// 	top: 50%;
+
+// 	ul {
+// 		position: relative;
+// 		// display: inline-block;
+// 		margin: 0;
+// 		padding: 0;
+// 		list-style: none;
+// 		cursor: default;
+
+// 		li {
+// 			position: relative;
+// 			// display: block;
+// 			// float: left;
+// 			// margin: 0 16px;
+// 			// width: 16px;
+// 			// height: 16px;
+// 			cursor: pointer;
+
+// 			border: 2px solid blue;
+// 			border-radius: 50%;
+// 			height: 0.5rem;
+// 			width: 0.5rem;
+// 			margin: 0.2rem 0;
+
+// 			a {
+// 				top: 0;
+// 				left: 0;
+// 				width: 100%;
+// 				height: 100%;
+// 				outline: none;
+// 				border-radius: 50%;
+// 				// background-color: #fff;
+// 				// background-color: rgba(255, 255, 255, 0.3);
+// 				// background-color: blue;
+// 				text-indent: -999em;
+// 				cursor: pointer; /* make the text accessible to screen readers */
+// 				position: absolute;
+// 			}
+// 		}
+// 	}
+// }
