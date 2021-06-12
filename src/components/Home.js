@@ -70,7 +70,7 @@ export default function Home() {
 
 	return (
 		<div className="homeContent">
-			<Navbar />
+			{/* <Navbar /> */}
 			<Intro />
 			<div id="left projects" className="homeSection">
 				<Projects />
