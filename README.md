@@ -4,11 +4,11 @@
 
 ## General Site
 
--   [x] size down images for better performance
+-   [ ] research more about verticle navbar progress indicator (there is a bit about this for React Native, maybe the logic can carry over)(google keywords: react js dot navigation scrollview progress indicator)
+-   [ ] research and apply methods for site better performance
 -   [ ] create a custom 404 page - [instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 -   [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 -   [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
--   [x] (At very end) delete all routes and links leftover from navbar
 
 ## General Styling
 
