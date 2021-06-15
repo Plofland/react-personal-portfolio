@@ -72,10 +72,10 @@ export default function Home() {
 		<div className="homeContent">
 			{/* <Navbar /> */}
 			<Intro />
-			<div id="left projects" className="homeSection">
+			<div id="left" className="homeSection">
 				<Projects />
 			</div>
-			<div id="right skills" className="homeSection">
+			<div id="right" className="homeSection">
 				<Skills />
 			</div>
 			<div id="left" className="homeSection">

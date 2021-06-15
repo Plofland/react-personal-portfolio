@@ -5,7 +5,7 @@
 ## General Site
 
 -   [ ] research more about verticle navbar progress indicator (there is a bit about this for React Native, maybe the logic can carry over)(google keywords: react js dot navigation scrollview progress indicator)
--   [ ] research and apply methods for site better performance
+-   [ ] research and apply methods for site better performance (mobile)
 -   [ ] create a custom 404 page - [instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 -   [ ] (STRETCH) background plant/roots [scroll-drawing](https://css-tricks.com/scroll-drawing/)
 -   [ ] (At very end) re-paste in the CSS reset & don't format so that it takes up less space
@@ -26,6 +26,7 @@
 ## Intro
 
 -   [ ] something is still off about the call to action button, think about what to do with it
+- [ ] (mobile) make the python-2-still.jpg even smaller for mobile performance (cut down the size by half or compress it)
 -   [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Skills
@@ -36,6 +37,8 @@
 
 -   [x] add a short description for each project (maybe a hover state that has the short description over the image)
 -   [x] responsive issue: project description shows on mobile
+-   [ ] fix pixel gap bug under the project images
+- [ ] (mobile) make extra project images for that are half the size of the desktop sizes (110KiB --> 55KiB)
 -   [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section

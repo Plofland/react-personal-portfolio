@@ -17,7 +17,9 @@ function Contact() {
 							}
 							target="_blank"
 							rel="noreferrer"
+							aria-label="Gmail"
 						>
+							
 							<span></span>
 							<span></span>
 							<span></span>
@@ -42,7 +44,9 @@ function Contact() {
 							}
 							target="_blank"
 							rel="noreferrer"
+							aria-label="LinkedIn"
 						>
+							
 							<span></span>
 							<span></span>
 							<span></span>
@@ -67,7 +71,9 @@ function Contact() {
 							}
 							target="_blank"
 							rel="noreferrer"
+							aria-label="Twitter"
 						>
+							
 							<span></span>
 							<span></span>
 							<span></span>
@@ -92,7 +98,9 @@ function Contact() {
 							}
 							target="_blank"
 							rel="noreferrer"
+							aria-label="Github"
 						>
+							
 							<span></span>
 							<span></span>
 							<span></span>
@@ -114,7 +122,9 @@ function Contact() {
 							}
 							target="_blank"
 							rel="noreferrer"
+							aria-label="Instagram"
 						>
+							
 							<span></span>
 							<span></span>
 							<span></span>
