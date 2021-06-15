@@ -19,14 +19,14 @@
 -   [x] responsive mobile for mobile (414 x 896)
 -   [x] fix sizing issues with sections/intro (415px-820px)
 -   [x] space out sections for mobile
--   [ ] space out sections for large desktop monitor
+-   [x] space out sections for large desktop monitor
 -   [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 -   [x] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
 ## Intro
 
 -   [ ] something is still off about the call to action button, think about what to do with it
-- [ ] (mobile) make the python-2-still.jpg even smaller for mobile performance (cut down the size by half or compress it)
+-   [ ] (mobile) make the python-2-still.jpg even smaller for mobile performance (cut down the size by half or compress it)
 -   [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
 ## Skills
@@ -37,8 +37,8 @@
 
 -   [x] add a short description for each project (maybe a hover state that has the short description over the image)
 -   [x] responsive issue: project description shows on mobile
--   [ ] fix pixel gap bug under the project images
-- [ ] (mobile) make extra project images for that are half the size of the desktop sizes (110KiB --> 55KiB)
+-   [x] fix pixel gap bug under the project images
+-   [ ] (mobile) make extra project images for that are half the size of the desktop sizes (110KiB --> 55KiB)
 -   [ ] (STRETCH) stagger animate the projects on entrance
 
 ## About Me Section
