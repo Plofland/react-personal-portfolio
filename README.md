@@ -12,20 +12,12 @@
 
 ## General Styling
 
--   [x] Responsive design for large monitor (1440+)
--   [x] Responsive design for macbook (1440 x 900)
--   [x] Responsive design for small window (1200 x 900)
--   [x] Responsive design for tablet (834 x 1194)
--   [x] responsive mobile for mobile (414 x 896)
--   [x] fix sizing issues with sections/intro (415px-820px)
--   [x] space out sections for mobile
--   [x] space out sections for large desktop monitor
 -   [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 -   [x] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
 ## Intro
 
--   [ ] something is still off about the call to action button, think about what to do with it
+-   [ ] gradient is not quite right on the call to action button, [fix it with this](https://www.youtube.com/watch?v=6atEig0UyTA)
 -   [ ] (mobile) make the python-2-still.jpg even smaller for mobile performance (cut down the size by half or compress it)
 -   [ ] (STRETCH) have an arrow pointing to the call to action 'get in contact' button
 
@@ -35,9 +27,6 @@
 
 ## Projects Section
 
--   [x] add a short description for each project (maybe a hover state that has the short description over the image)
--   [x] responsive issue: project description shows on mobile
--   [x] fix pixel gap bug under the project images
 -   [ ] (mobile) make extra project images for that are half the size of the desktop sizes (110KiB --> 55KiB)
 -   [ ] (STRETCH) stagger animate the projects on entrance
 
@@ -47,13 +36,9 @@
 
 ## Contact Section
 
--   [x] improve the spaceing of the contacts for mobile
--   [x] fix styling issues above 1440px where the icon are messed up
+
 
 ## Header
 
--   [x] make header larger for mobile
--   [x] resize banner for mobile
--   [x] slow and smooth animate in for banner image
 
 ## Footer
