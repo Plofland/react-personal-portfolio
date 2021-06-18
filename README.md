@@ -12,6 +12,7 @@
 
 ## General Styling
 
+- [ ] remove titles of each section, they're superfluous 
 -   [ ] (STRETCH) Animal Crossing style cylindar world animation of sections as the user scrolls (see next goal)
 -   [x] (STRETCH) each section fades in/fades out as user scrolls [see this article](https://www.superhi.com/library/posts/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll) or [this article](https://blog.hubspot.com/website/css-fade-in)
 
@@ -27,6 +28,7 @@
 
 ## Projects Section
 
+- [ ] make project cards include a github icon that links to the code
 -   [ ] (mobile) make extra project images for that are half the size of the desktop sizes (110KiB --> 55KiB)
 -   [ ] (STRETCH) stagger animate the projects on entrance
 
